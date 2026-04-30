@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canada 2026 - Interactive Itinerary</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="locked">
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="mountain-range" aria-hidden="true"></div>
+  <section class="access-screen" id="accessScreen" aria-labelledby="accessTitle">
+    <main class="access-card">
+      <span class="eyebrow">Private itinerary</span>
+      <h1 id="accessTitle">Canada 2026</h1>
+      <p>Enter the access code to open the waterfalls, mountain roads, maps, and travel details.</p>
+      <form id="accessForm" class="access-form">
+        <label for="accessCode">Access code</label>
+        <input id="accessCode" name="accessCode" type="text" autocomplete="off" required>
+        <button type="submit">Open trip</button>
+        <p class="access-error" id="accessError" role="alert" hidden>That code did not work.</p>
+      </form>
+    </main>
+  </section>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Canada 2026 home"><span class="brand-mark">CA</span><span>Canada 2026</span></a>
+    <nav class="top-actions">
+      <button class="ghost-button" id="expandAll" type="button">Expand all</button>
+      <button class="ghost-button" id="collapseAll" type="button">Collapse</button>
+      <button class="ghost-button danger" id="logout" type="button">Lock</button>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Waterfalls - mountains - glacier roads</span>
+        <h1 id="tripTitle">Canada 2026</h1>
+        <p id="tripSubtitle">Loading travel details...</p>
+        <div class="hero-stats" id="heroStats"></div>
+        <div class="searchbar">
+          <span class="search-icon">Search</span>
+          <input id="search" type="search" placeholder="Search Lake Louise, shuttle, Jasper, waterfalls...">
+        </div>
+      </div>
+      <div class="hero-card" id="heroCard">
+        <div class="hero-image"></div>
+        <div class="hero-glass">
+          <span>Current view</span>
+          <strong id="activeDayName">Full trip</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <span class="eyebrow">Daily cards</span>
+        <h2>Choose a day</h2>
+      </div>
+      <div class="chips" id="chips"></div>
+    </section>
+    <section class="day-grid" id="dayGrid"></section>
+
+    <section class="section-head sticky-section-title">
+      <div>
+        <span class="eyebrow">Dynamic timeline</span>
+        <h2 id="timelineTitle">Timeline</h2>
+      </div>
+      <a class="map-link" id="googleImagesLink" target="_blank" rel="noreferrer">Open image search</a>
+    </section>
+    <section class="timeline-shell" id="timelineShell"></section>
+  </main>
+  <template id="icon-template"></template>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

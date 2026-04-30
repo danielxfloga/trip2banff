@@ -1,0 +1,17 @@
+{
+  "name": "canada-2026-itinerary",
+  "version": "1.0.0",
+  "description": "Static Canada 2026 travel-details page for GitHub Pages.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "itinerary",
+    "nodejs",
+    "travel",
+    "banff",
+    "jasper"
+  ],
+  "license": "UNLICENSED"
+}

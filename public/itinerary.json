@@ -1,0 +1,1039 @@
+{
+  "metadata": {
+    "title": "Canada 2026",
+    "travelersLabel": "Travelers",
+    "travelers": "Famiglia",
+    "datesLabel": "Dates",
+    "dates": "May/31-Jun/7",
+    "destinationLabel": "Destination",
+    "destination": "Banff, Alberta, CA"
+  },
+  "days": [
+    {
+      "id": "day-5-31",
+      "dateLabel": "5/31",
+      "isoDate": "2026-05-31",
+      "dayCode": "SUN",
+      "dayName": "Sunday",
+      "title": "WestJet WS 2279",
+      "stay": "Guadalajara to Calgary",
+      "imageQuery": "WestJet WS 2279 Banff, Alberta, CA waterfalls mountains",
+      "schedule": [
+        {
+          "row": 10,
+          "time": "",
+          "title": "Depart · Airport",
+          "note": "Notes",
+          "mapUrl": "",
+          "research": "",
+          "icon": "plane",
+          "imageQuery": "Depart · Airport Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 11,
+          "time": "3:25 PM",
+          "title": "GDL",
+          "note": "Confirmation: FDAVZV | Nonstop flight; 5.10 hrs",
+          "mapUrl": "",
+          "research": "",
+          "icon": "plane",
+          "imageQuery": "GDL Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 13,
+          "time": "",
+          "title": "Arrive",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "pin",
+          "imageQuery": "Arrive Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 14,
+          "time": "8:35 PM",
+          "title": "YYC",
+          "note": "",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Calgary+International+Airport&destination=Harvie+Heights+AB&travelmode=driving",
+          "research": "Duración sugerida: 1.5-2 h directo; 3-5 h si paran por víveres/comida. Usuarios: muchos recomiendan comprar despensa grande en Calgary porque Banff/Canmore suele ser más caro. Precio: gasolina + park pass (adulto C$12.25 o vehículo/familia C$24.50 por día). Precauciones: clima cambiante y posible fauna en carretera. Llevar: agua, snacks, chamarra ligera, cargador y playlist offline.",
+          "icon": "plane",
+          "imageQuery": "YYC Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 16,
+          "time": "",
+          "title": "AVIS Car Rental",
+          "note": "Calgary, CA",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "AVIS Car Rental Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 17,
+          "time": "",
+          "title": "Check-in · Days",
+          "note": "Notes",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bow+Falls+Banff",
+          "research": "Duración: Bow Falls 30-60 min; downtown 1-3 h. Usuarios: el centro suele saturarse antes de las 10 am; conviene usar el estacionamiento grande de la estación de tren y caminar. Precio: Bow Falls y Banff Avenue son gratis con park pass. Precauciones: zonas húmedas cerca del río y tráfico peatonal fuerte. Llevar: capa ligera, agua y cámara.",
+          "icon": "bed",
+          "imageQuery": "Check-in · Days Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 18,
+          "time": "9:00 PM",
+          "title": "7",
+          "note": "Confirmation: 10265194U52",
+          "mapUrl": "",
+          "research": "",
+          "icon": "pin",
+          "imageQuery": "7 Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 20,
+          "time": "",
+          "title": "Element Calgary Airport",
+          "note": "Calgary, CA",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Gondola",
+          "research": "Duración: 2-4 h total. Usuarios: reservar temprano ayuda mucho; antes de 10 am o al atardecer suele haber menos gente. Precio: tarifa dinámica; en verano suele arrancar alrededor de C$60+ por adulto, y bajar solo en gondola cuesta aprox. la mitad del boleto regular. Precauciones: arriba puede haber viento/frío incluso en junio. Llevar: bloqueador, agua y capa térmica ligera.",
+          "icon": "plane",
+          "imageQuery": "Element Calgary Airport Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 21,
+          "time": "",
+          "title": "Check-in · Nights",
+          "note": "Notes",
+          "mapUrl": "",
+          "research": "",
+          "icon": "bed",
+          "imageQuery": "Check-in · Nights Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 22,
+          "time": "15:00",
+          "title": "1",
+          "note": "Confirmation: 88302625",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Upper+Hot+Springs",
+          "research": "Duración: lookout 15-45 min; hot springs 45-90 min. Usuarios: las hot springs son first-come, first-served; en horas pico puede haber fila. Precio: Upper Hot Springs adulto C$19.75, familiar C$64.25; el mirador es gratis. Precauciones: no hay reserva anticipada para la alberca. Llevar: traje, toalla, chanclas, agua y cambio de ropa.",
+          "icon": "mountain",
+          "imageQuery": "1 Banff Jasper Canadian Rockies"
+        }
+      ],
+      "activities": [
+        {
+          "row": 14,
+          "phase": "8:35 PM",
+          "title": "YYC",
+          "description": "YYC",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Calgary+International+Airport&destination=Harvie+Heights+AB&travelmode=driving",
+          "research": "Duración sugerida: 1.5-2 h directo; 3-5 h si paran por víveres/comida. Usuarios: muchos recomiendan comprar despensa grande en Calgary porque Banff/Canmore suele ser más caro. Precio: gasolina + park pass (adulto C$12.25 o vehículo/familia C$24.50 por día). Precauciones: clima cambiante y posible fauna en carretera. Llevar: agua, snacks, chamarra ligera, cargador y playlist offline.",
+          "icon": "plane",
+          "imageQuery": "YYC Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 17,
+          "phase": "Agenda",
+          "title": "Check-in · Days",
+          "description": "Notes",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bow+Falls+Banff",
+          "research": "Duración: Bow Falls 30-60 min; downtown 1-3 h. Usuarios: el centro suele saturarse antes de las 10 am; conviene usar el estacionamiento grande de la estación de tren y caminar. Precio: Bow Falls y Banff Avenue son gratis con park pass. Precauciones: zonas húmedas cerca del río y tráfico peatonal fuerte. Llevar: capa ligera, agua y cámara.",
+          "icon": "bed",
+          "imageQuery": "Check-in · Days Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 20,
+          "phase": "Agenda",
+          "title": "Element Calgary Airport",
+          "description": "Calgary, CA",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Gondola",
+          "research": "Duración: 2-4 h total. Usuarios: reservar temprano ayuda mucho; antes de 10 am o al atardecer suele haber menos gente. Precio: tarifa dinámica; en verano suele arrancar alrededor de C$60+ por adulto, y bajar solo en gondola cuesta aprox. la mitad del boleto regular. Precauciones: arriba puede haber viento/frío incluso en junio. Llevar: bloqueador, agua y capa térmica ligera.",
+          "icon": "plane",
+          "imageQuery": "Element Calgary Airport Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 22,
+          "phase": "15:00",
+          "title": "1",
+          "description": "Confirmation: 88302625",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Upper+Hot+Springs",
+          "research": "Duración: lookout 15-45 min; hot springs 45-90 min. Usuarios: las hot springs son first-come, first-served; en horas pico puede haber fila. Precio: Upper Hot Springs adulto C$19.75, familiar C$64.25; el mirador es gratis. Precauciones: no hay reserva anticipada para la alberca. Llevar: traje, toalla, chanclas, agua y cambio de ropa.",
+          "icon": "mountain",
+          "imageQuery": "1 Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
+        }
+      ],
+      "sourceRows": {
+        "start": 9,
+        "end": 23
+      },
+      "optimizedTitle": "WestJet WS 2279",
+      "activityCount": 4,
+      "scheduleCount": 10,
+      "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "id": "day-6-1",
+      "dateLabel": "6/1",
+      "isoDate": "2026-06-01",
+      "dayCode": "MON",
+      "dayName": "Monday",
+      "title": "CALGARY TO BANFF",
+      "stay": "Airbnb, Harvie Heights",
+      "imageQuery": "CALGARY TO BANFF Banff, Alberta, CA waterfalls mountains",
+      "schedule": [
+        {
+          "row": 26,
+          "time": "7:00 AM",
+          "title": "Breakfast",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Breakfast Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 27,
+          "time": "8:00 AM",
+          "title": "Supermercado / Costco",
+          "note": "",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Bow+Lake+Banff&destination=Athabasca+Falls+Jasper&travelmode=driving",
+          "research": "Duración: Bow Lake 20-45 min, Peyto 45-90 min y Athabasca Falls 45-60 min; con varias paradas, 4-6 h extra. Usuarios: Bow/Peyto se llenan rápido; en Peyto el mirador implica una subida corta de 10-15 min. Precio: paradas gratis con park pass. Precauciones: el clima cambia rápido y el piso puede estar húmedo. Llevar: agua, snack, impermeable y zapatos con buen agarre.",
+          "icon": "food",
+          "imageQuery": "Supermercado / Costco Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 28,
+          "time": "12:00 PM",
+          "title": "Drive to Banff",
+          "note": "2 hours drive",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "Drive to Banff Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 29,
+          "time": "",
+          "title": "Checkin Airbnb",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "bed",
+          "imageQuery": "Checkin Airbnb Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 30,
+          "time": "3:00 PM",
+          "title": "Bow Falls",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "waterfall",
+          "imageQuery": "Bow Falls Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 31,
+          "time": "5:00 PM",
+          "title": "Banff Town",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "Banff Town Banff Jasper Canadian Rockies"
+        }
+      ],
+      "activities": [
+        {
+          "row": 14,
+          "phase": "Ruta",
+          "title": "Calgary → Banff",
+          "description": "Calgary → Banff",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Calgary+International+Airport&destination=Harvie+Heights+AB&travelmode=driving",
+          "research": "Duración sugerida: 1.5-2 h directo; 3-5 h si paran por víveres/comida. Usuarios: muchos recomiendan comprar despensa grande en Calgary porque Banff/Canmore suele ser más caro. Precio: gasolina + park pass (adulto C$12.25 o vehículo/familia C$24.50 por día). Precauciones: clima cambiante y posible fauna en carretera. Llevar: agua, snacks, chamarra ligera, cargador y playlist offline.",
+          "icon": "car",
+          "imageQuery": "Calgary → Banff Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 15,
+          "phase": "Mañana",
+          "title": "Maneja de Calgary a Banff (1",
+          "description": "Maneja de Calgary a Banff (1.5 horas aprox.).",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "Maneja de Calgary a Banff (1 Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 16,
+          "phase": "Mediodía",
+          "title": "Compra víveres en el pueblo de Banff",
+          "description": "Compra víveres en el pueblo de Banff.",
+          "mapUrl": "",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Compra víveres en el pueblo de Banff Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 17,
+          "phase": "Tarde",
+          "title": "Visita Bow Falls y el hotel Fairmont Banff Springs (están juntos)",
+          "description": "Visita Bow Falls y el hotel Fairmont Banff Springs (están juntos). Camina por Downtown Banff y aprovecha el atardecer (8:50 PM) para fotos en Banff Avenue.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bow+Falls+Banff",
+          "research": "Duración: Bow Falls 30-60 min; downtown 1-3 h. Usuarios: el centro suele saturarse antes de las 10 am; conviene usar el estacionamiento grande de la estación de tren y caminar. Precio: Bow Falls y Banff Avenue son gratis con park pass. Precauciones: zonas húmedas cerca del río y tráfico peatonal fuerte. Llevar: capa ligera, agua y cámara.",
+          "icon": "bed",
+          "imageQuery": "Visita Bow Falls y el hotel Fairmont Banff Springs (están juntos) Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 27,
+          "phase": "8:00 AM",
+          "title": "Supermercado / Costco",
+          "description": "Supermercado / Costco",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Bow+Lake+Banff&destination=Athabasca+Falls+Jasper&travelmode=driving",
+          "research": "Duración: Bow Lake 20-45 min, Peyto 45-90 min y Athabasca Falls 45-60 min; con varias paradas, 4-6 h extra. Usuarios: Bow/Peyto se llenan rápido; en Peyto el mirador implica una subida corta de 10-15 min. Precio: paradas gratis con park pass. Precauciones: el clima cambia rápido y el piso puede estar húmedo. Llevar: agua, snack, impermeable y zapatos con buen agarre.",
+          "icon": "food",
+          "imageQuery": "Supermercado / Costco Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80"
+        }
+      ],
+      "sourceRows": {
+        "start": 24,
+        "end": 32
+      },
+      "optimizedTitle": "Lunes 1 de Junio: Calgary → Banff",
+      "activityCount": 5,
+      "scheduleCount": 6,
+      "fallbackImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "id": "day-6-2",
+      "dateLabel": "6/2",
+      "isoDate": "2026-06-02",
+      "dayCode": "TUE",
+      "dayName": "Tuesday",
+      "title": "Banff area",
+      "stay": "Airbnb, Harvie Heights",
+      "imageQuery": "Banff area Banff, Alberta, CA waterfalls mountains",
+      "schedule": [
+        {
+          "row": 35,
+          "time": "5:00 AM",
+          "title": "Breakfast",
+          "note": "",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Harvie+Heights+AB&destination=Takakkaw+Falls&travelmode=driving",
+          "research": "Duración: Emerald Lake 1-3 h; Takakkaw 45-90 min. Usuarios: Emerald y Takakkaw se congestionan y el estacionamiento puede ser caótico; ir temprano ayuda mucho. Precio: gratis con park pass. Precauciones: ojo serio con la fecha: la Yoho Valley Road hacia Takakkaw suele abrir a mediados/finales de junio; para el 5 de junio debes verificar estatus 24-48 h antes. Llevar: impermeable ligero, agua y calzado con tracción.",
+          "icon": "car",
+          "imageQuery": "Breakfast Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 36,
+          "time": "6:00 AM",
+          "title": "Banff",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "pin",
+          "imageQuery": "Banff Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 37,
+          "time": "11:00 AM",
+          "title": "Summer Gondola",
+          "note": "Lake Louise Summer Gondola",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Summer+Gondola",
+          "research": "Duración: 1-3 h. Usuarios: comprar en línea ahorra 10% y evita la fila; abren el 5 de junio, así que empata con tu fecha. Precio oficial 2026: adulto C$65, senior C$54, youth C$29, child C$16, más GST. Precauciones: cierres por clima son posibles y el ticket no es reembolsable. Llevar: rompevientos, lentes y agua.",
+          "icon": "lake",
+          "imageQuery": "Summer Gondola Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 38,
+          "time": "4:00 PM",
+          "title": "Sulfur Mountain Trail",
+          "note": "Lake Agnes Trail\nFairview lookout",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Agnes+Tea+House+Trailhead",
+          "research": "Duración: Moraine Rockpile 30-60 min; Lake Agnes 3-6 h; Fairview Lookout 45-60 min adicional. Usuarios: Lake Agnes tiene subida constante; suele haber fila en el tea house y varios recomiendan llevar cash y snack de respaldo. Precio: hike gratis con park pass; shuttle a Moraine/Louise adulto C$12.75 + C$3.50 de reserva online. Precauciones: Moraine no admite coche particular. Llevar: agua, snack, impermeable y bastones opcionales.",
+          "icon": "food",
+          "imageQuery": "Sulfur Mountain Trail Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 39,
+          "time": "6:00 PM",
+          "title": "Banff town",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "Banff town Banff Jasper Canadian Rockies"
+        }
+      ],
+      "activities": [
+        {
+          "row": 20,
+          "phase": "Mañana",
+          "title": "Banff Gondola y Sulphur Mountain Trail",
+          "description": "Banff Gondola y Sulphur Mountain Trail.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Gondola",
+          "research": "Duración: 2-4 h total. Usuarios: reservar temprano ayuda mucho; antes de 10 am o al atardecer suele haber menos gente. Precio: tarifa dinámica; en verano suele arrancar alrededor de C$60+ por adulto, y bajar solo en gondola cuesta aprox. la mitad del boleto regular. Precauciones: arriba puede haber viento/frío incluso en junio. Llevar: bloqueador, agua y capa térmica ligera.",
+          "icon": "mountain",
+          "imageQuery": "Banff Gondola y Sulphur Mountain Trail Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 22,
+          "phase": "Tarde",
+          "title": "Visita Mount Norquay Lookout para una vista aérea del pueblo o relájate en las Upper Ho...",
+          "description": "Visita Mount Norquay Lookout para una vista aérea del pueblo o relájate en las Upper Hot Springs.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Upper+Hot+Springs",
+          "research": "Duración: lookout 15-45 min; hot springs 45-90 min. Usuarios: las hot springs son first-come, first-served; en horas pico puede haber fila. Precio: Upper Hot Springs adulto C$19.75, familiar C$64.25; el mirador es gratis. Precauciones: no hay reserva anticipada para la alberca. Llevar: traje, toalla, chanclas, agua y cambio de ropa.",
+          "icon": "mountain",
+          "imageQuery": "Visita Mount Norquay Lookout para una vista aérea del pueblo o relájate en las Upper Ho... Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 35,
+          "phase": "5:00 AM",
+          "title": "Breakfast",
+          "description": "Breakfast",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Harvie+Heights+AB&destination=Takakkaw+Falls&travelmode=driving",
+          "research": "Duración: Emerald Lake 1-3 h; Takakkaw 45-90 min. Usuarios: Emerald y Takakkaw se congestionan y el estacionamiento puede ser caótico; ir temprano ayuda mucho. Precio: gratis con park pass. Precauciones: ojo serio con la fecha: la Yoho Valley Road hacia Takakkaw suele abrir a mediados/finales de junio; para el 5 de junio debes verificar estatus 24-48 h antes. Llevar: impermeable ligero, agua y calzado con tracción.",
+          "icon": "car",
+          "imageQuery": "Breakfast Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 37,
+          "phase": "11:00 AM",
+          "title": "Summer Gondola",
+          "description": "Lake Louise Summer Gondola",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Summer+Gondola",
+          "research": "Duración: 1-3 h. Usuarios: comprar en línea ahorra 10% y evita la fila; abren el 5 de junio, así que empata con tu fecha. Precio oficial 2026: adulto C$65, senior C$54, youth C$29, child C$16, más GST. Precauciones: cierres por clima son posibles y el ticket no es reembolsable. Llevar: rompevientos, lentes y agua.",
+          "icon": "lake",
+          "imageQuery": "Summer Gondola Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 38,
+          "phase": "4:00 PM",
+          "title": "Sulfur Mountain Trail",
+          "description": "Lake Agnes Trail\nFairview lookout",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Agnes+Tea+House+Trailhead",
+          "research": "Duración: Moraine Rockpile 30-60 min; Lake Agnes 3-6 h; Fairview Lookout 45-60 min adicional. Usuarios: Lake Agnes tiene subida constante; suele haber fila en el tea house y varios recomiendan llevar cash y snack de respaldo. Precio: hike gratis con park pass; shuttle a Moraine/Louise adulto C$12.75 + C$3.50 de reserva online. Precauciones: Moraine no admite coche particular. Llevar: agua, snack, impermeable y bastones opcionales.",
+          "icon": "food",
+          "imageQuery": "Sulfur Mountain Trail Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80"
+        }
+      ],
+      "sourceRows": {
+        "start": 33,
+        "end": 40
+      },
+      "optimizedTitle": "Martes 2 de Junio: El día de Banff",
+      "activityCount": 5,
+      "scheduleCount": 5,
+      "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "id": "day-6-3",
+      "dateLabel": "6/3",
+      "isoDate": "2026-06-03",
+      "dayCode": "WED",
+      "dayName": "Wednesday",
+      "title": "Drive to Jasper",
+      "stay": "Tonquin Inn, Jasper",
+      "imageQuery": "Drive to Jasper Banff, Alberta, CA waterfalls mountains",
+      "schedule": [
+        {
+          "row": 43,
+          "time": "5:00 AM",
+          "title": "Breakfast",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Breakfast Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 44,
+          "time": "6:00 AM",
+          "title": "Drive to Jasper w/stops",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "Drive to Jasper w/stops Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 45,
+          "time": "",
+          "title": "Crowfoot glacier viewpoint",
+          "note": "Bow Lake Viewpoint\nWaterfowl Lake Viewpoint",
+          "mapUrl": "",
+          "research": "",
+          "icon": "lake",
+          "imageQuery": "Crowfoot glacier viewpoint Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 46,
+          "time": "",
+          "title": "Peyto Lake",
+          "note": "Athabasca Glacier Trailhead\nStutfield Glacier Viewpoint\nGoats and Glacier Lookout\nAthabasca Pass Lookout",
+          "mapUrl": "",
+          "research": "",
+          "icon": "lake",
+          "imageQuery": "Peyto Lake Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 48,
+          "time": "4:00 PM",
+          "title": "Checking Tonquin",
+          "note": "",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Banff+AB&destination=Calgary+International+Airport&travelmode=driving",
+          "research": "Duración sugerida: 1.5-2 h, pero para vuelo conviene salir con 2.5-3 h de colchón. Usuarios: el fin de semana puede cargarse el regreso hacia Calgary. Precio: gasolina + devolución del auto. Precauciones: revisa tiempo de devolución del rental y que no dejes compras/combustible para el final. Llevar: pasaportes, tarjetas, cargadores y termo vacío.",
+          "icon": "plane",
+          "imageQuery": "Checking Tonquin Banff Jasper Canadian Rockies"
+        }
+      ],
+      "activities": [
+        {
+          "row": 25,
+          "phase": "Ruta",
+          "title": "Icefields Parkway → Jasper",
+          "description": "Icefields Parkway → Jasper",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Banff+AB&destination=Jasper+AB&travelmode=driving",
+          "research": "Duración: 3.5-4 h sin paradas; 7-10 h realista si paran en miradores. Usuarios: tómenselo como road trip de día completo; las mejores paradas salen solas si no van con prisa. Precio: ruta incluida con park pass; tours/atracciones extra aparte. Precauciones: solo hay una gasolinera en 232 km y casi no hay señal. Llevar: tanque lleno, snacks, agua, power bank y mapa offline.",
+          "icon": "car",
+          "imageQuery": "Icefields Parkway → Jasper Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 26,
+          "phase": "Todo el día",
+          "title": "Esta es considerada una de las carreteras más bellas del mundo",
+          "description": "Esta es considerada una de las carreteras más bellas del mundo. Manejar de Banff a Jasper toma 3.5 horas sin paradas, pero con ellas te tomará 7-8 horas.",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "Esta es considerada una de las carreteras más bellas del mundo Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 27,
+          "phase": "Paradas clave",
+          "title": "Bow Lake, Crowfoot Glacier, Peyto Lake (el mirador más famoso) y Athabasca Falls antes...",
+          "description": "Bow Lake, Crowfoot Glacier, Peyto Lake (el mirador más famoso) y Athabasca Falls antes de llegar a Jasper.",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Bow+Lake+Banff&destination=Athabasca+Falls+Jasper&travelmode=driving",
+          "research": "Duración: Bow Lake 20-45 min, Peyto 45-90 min y Athabasca Falls 45-60 min; con varias paradas, 4-6 h extra. Usuarios: Bow/Peyto se llenan rápido; en Peyto el mirador implica una subida corta de 10-15 min. Precio: paradas gratis con park pass. Precauciones: el clima cambia rápido y el piso puede estar húmedo. Llevar: agua, snack, impermeable y zapatos con buen agarre.",
+          "icon": "car",
+          "imageQuery": "Bow Lake, Crowfoot Glacier, Peyto Lake (el mirador más famoso) y Athabasca Falls antes... Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 28,
+          "phase": "Dormir",
+          "title": "Jasper",
+          "description": "Jasper",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "Jasper Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 48,
+          "phase": "4:00 PM",
+          "title": "Checking Tonquin",
+          "description": "Checking Tonquin",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Banff+AB&destination=Calgary+International+Airport&travelmode=driving",
+          "research": "Duración sugerida: 1.5-2 h, pero para vuelo conviene salir con 2.5-3 h de colchón. Usuarios: el fin de semana puede cargarse el regreso hacia Calgary. Precio: gasolina + devolución del auto. Precauciones: revisa tiempo de devolución del rental y que no dejes compras/combustible para el final. Llevar: pasaportes, tarjetas, cargadores y termo vacío.",
+          "icon": "plane",
+          "imageQuery": "Checking Tonquin Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80"
+        }
+      ],
+      "sourceRows": {
+        "start": 41,
+        "end": 49
+      },
+      "optimizedTitle": "Miércoles 3 de Junio: Icefields Parkway → Jasper",
+      "activityCount": 5,
+      "scheduleCount": 5,
+      "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "id": "day-6-4",
+      "dateLabel": "6/4",
+      "isoDate": "2026-06-04",
+      "dayCode": "THU",
+      "dayName": "Thursday",
+      "title": "Jasper area. Drive to Banff",
+      "stay": "Airbnb, Harvie Heights",
+      "imageQuery": "Jasper area. Drive to Banff Banff, Alberta, CA waterfalls mountains",
+      "schedule": [
+        {
+          "row": 52,
+          "time": "5:00 AM",
+          "title": "Breakfast",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Breakfast Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 53,
+          "time": "8:00 AM",
+          "title": "Jasper National Park",
+          "note": "",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Maligne+Lake",
+          "research": "Duración: Maligne Lake 2-4 h si solo hacen miradores/caminata corta; más si toman crucero. Usuarios: salgan con tanque lleno; en la Maligne Road no hay gas y el trayecto desde Jasper toma ~50 min sin paradas. Precio: zona libre con park pass; cruceros aparte. Precauciones: Maligne Canyon sigue cerrado toda la temporada 2026 tras el incendio de 2024. Llevar: agua, snack, repelente y binoculares si tienen.",
+          "icon": "car",
+          "imageQuery": "Jasper National Park Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 54,
+          "time": "18:00 PM",
+          "title": "Drive to Banff",
+          "note": "2 hours drive",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "Drive to Banff Banff Jasper Canadian Rockies"
+        }
+      ],
+      "activities": [
+        {
+          "row": 31,
+          "phase": "Mañana",
+          "title": "Visita Maligne Lake y Maligne Canyon en Jasper",
+          "description": "Visita Maligne Lake y Maligne Canyon en Jasper.",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "Visita Maligne Lake y Maligne Canyon en Jasper Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 32,
+          "phase": "Tarde",
+          "title": "Regreso a Banff",
+          "description": "Regreso a Banff. Puedes parar en el Columbia Icefield para ver el glaciar de cerca.",
+          "mapUrl": "",
+          "research": "",
+          "icon": "pin",
+          "imageQuery": "Regreso a Banff Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 53,
+          "phase": "8:00 AM",
+          "title": "Jasper National Park",
+          "description": "Jasper National Park",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Maligne+Lake",
+          "research": "Duración: Maligne Lake 2-4 h si solo hacen miradores/caminata corta; más si toman crucero. Usuarios: salgan con tanque lleno; en la Maligne Road no hay gas y el trayecto desde Jasper toma ~50 min sin paradas. Precio: zona libre con park pass; cruceros aparte. Precauciones: Maligne Canyon sigue cerrado toda la temporada 2026 tras el incendio de 2024. Llevar: agua, snack, repelente y binoculares si tienen.",
+          "icon": "car",
+          "imageQuery": "Jasper National Park Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80"
+        }
+      ],
+      "sourceRows": {
+        "start": 50,
+        "end": 57
+      },
+      "optimizedTitle": "Jueves 4 de Junio: Jasper → Banff",
+      "activityCount": 3,
+      "scheduleCount": 3,
+      "fallbackImage": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "id": "day-6-5",
+      "dateLabel": "6/5",
+      "isoDate": "2026-06-05",
+      "dayCode": "FRI",
+      "dayName": "Friday",
+      "title": "Banff area",
+      "stay": "Airbnb, Harvie Heights",
+      "imageQuery": "Banff area Banff, Alberta, CA waterfalls mountains",
+      "schedule": [
+        {
+          "row": 60,
+          "time": "5:00 AM",
+          "title": "Breakfast",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Breakfast Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 61,
+          "time": "6:00 AM",
+          "title": "Yoho National Park",
+          "note": "",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yoho+National+Park",
+          "research": "Duración: medio día a día completo. Usuarios: muchos lo ven como el parque 'menos saturado' frente a Banff, pero Emerald/Takakkaw igual se llenan. Precio: entra con el mismo park pass de Parks Canada. Precauciones: varias zonas tienen apertura estacional; no des por hecho que todo estará abierto en junio temprano. Llevar: agua, snack, capa impermeable y mapa offline.",
+          "icon": "waterfall",
+          "imageQuery": "Yoho National Park Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 62,
+          "time": "11:00 AM",
+          "title": "Takakkaw Falls",
+          "note": "",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Takakkaw+Falls",
+          "research": "Duración: 45-90 min para la parada corta. Usuarios: la vista impresiona rápido, pero el parking y la maniobra de subida pueden volverse pesados; evita ir a media mañana. Precio: gratis con park pass. Precauciones: la carretera tiene switchbacks muy cerrados; vehículos >7 m deben maniobrar marcha atrás y trailers no están permitidos. Además, para junio temprano puede seguir cerrada. Llevar: impermeable ligero por la brisa de la cascada.",
+          "icon": "waterfall",
+          "imageQuery": "Takakkaw Falls Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 63,
+          "time": "3:00 PM",
+          "title": "Shuttle Morraine Lake",
+          "note": "INPC26-4028073B1",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Park+and+Ride",
+          "research": "Duración: 30-60 min en Moraine si solo hacen Rockpile; 2-3 h si se quedan más. Usuarios: la reserva se pelea fuerte y el check-in puntual importa; el conector entre lagos suele tomar 20-30 min. Precio oficial: shuttle adulto C$12.75, senior C$6, youth C$4 + C$3.50 reserva online. Precauciones: Moraine Lake Road está cerrada a vehículos particulares todo el año. Llevar: agua, abrigo y screenshot de reserva.",
+          "icon": "car",
+          "imageQuery": "Shuttle Morraine Lake Banff Jasper Canadian Rockies"
+        }
+      ],
+      "activities": [
+        {
+          "row": 34,
+          "phase": "Ruta",
+          "title": "Yoho y Moraine Lake (Día de Logística Crítica)",
+          "description": "Yoho y Moraine Lake (Día de Logística Crítica)",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Harvie+Heights+AB&destination=Emerald+Lake+BC&travelmode=driving",
+          "research": "Duración: 6-10 h si combinan Yoho + shuttle a Moraine. Usuarios: este día se aprieta fácil; funciona mejor si dejan Moraine para la tarde/noche y Yoho muy temprano. Precio: Yoho entra con el mismo park pass; Moraine/Louise shuttle adulto C$12.75 + C$3.50 de reserva online. Precauciones: no intenten improvisar Moraine en coche; no admiten vehículos particulares. Llevar: agua, snacks y batería externa.",
+          "icon": "lake",
+          "imageQuery": "Yoho y Moraine Lake (Día de Logística Crítica) Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 35,
+          "phase": "Mañana",
+          "title": "Yoho National Park",
+          "description": "Yoho National Park. Ve directo a Emerald Lake y luego a Takakkaw Falls (la carretera suele abrir a finales de mayo/principios de junio, ¡estarás justo a tiempo!).",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Harvie+Heights+AB&destination=Takakkaw+Falls&travelmode=driving",
+          "research": "Duración: Emerald Lake 1-3 h; Takakkaw 45-90 min. Usuarios: Emerald y Takakkaw se congestionan y el estacionamiento puede ser caótico; ir temprano ayuda mucho. Precio: gratis con park pass. Precauciones: ojo serio con la fecha: la Yoho Valley Road hacia Takakkaw suele abrir a mediados/finales de junio; para el 5 de junio debes verificar estatus 24-48 h antes. Llevar: impermeable ligero, agua y calzado con tracción.",
+          "icon": "car",
+          "imageQuery": "Yoho National Park Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 36,
+          "phase": "Tarde",
+          "title": "Shuttle a Moraine Lake (ya reservado)",
+          "description": "Shuttle a Moraine Lake (ya reservado).",
+          "mapUrl": "",
+          "research": "",
+          "icon": "lake",
+          "imageQuery": "Shuttle a Moraine Lake (ya reservado) Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 38,
+          "phase": "Tip",
+          "title": "Como ya tienes reserva, asegúrate de estar en el Park and Ride (Lake Louise Ski Resort)...",
+          "description": "Como ya tienes reserva, asegúrate de estar en el Park and Ride (Lake Louise Ski Resort) 20 min antes de tu hora. El atardecer en Moraine es mágico.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Agnes+Tea+House+Trailhead",
+          "research": "Duración: Moraine Rockpile 30-60 min; Lake Agnes 3-6 h; Fairview Lookout 45-60 min adicional. Usuarios: Lake Agnes tiene subida constante; suele haber fila en el tea house y varios recomiendan llevar cash y snack de respaldo. Precio: hike gratis con park pass; shuttle a Moraine/Louise adulto C$12.75 + C$3.50 de reserva online. Precauciones: Moraine no admite coche particular. Llevar: agua, snack, impermeable y bastones opcionales.",
+          "icon": "food",
+          "imageQuery": "Como ya tienes reserva, asegúrate de estar en el Park and Ride (Lake Louise Ski Resort)... Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 61,
+          "phase": "6:00 AM",
+          "title": "Yoho National Park",
+          "description": "Yoho National Park",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yoho+National+Park",
+          "research": "Duración: medio día a día completo. Usuarios: muchos lo ven como el parque 'menos saturado' frente a Banff, pero Emerald/Takakkaw igual se llenan. Precio: entra con el mismo park pass de Parks Canada. Precauciones: varias zonas tienen apertura estacional; no des por hecho que todo estará abierto en junio temprano. Llevar: agua, snack, capa impermeable y mapa offline.",
+          "icon": "waterfall",
+          "imageQuery": "Yoho National Park Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 62,
+          "phase": "11:00 AM",
+          "title": "Takakkaw Falls",
+          "description": "Takakkaw Falls",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Takakkaw+Falls",
+          "research": "Duración: 45-90 min para la parada corta. Usuarios: la vista impresiona rápido, pero el parking y la maniobra de subida pueden volverse pesados; evita ir a media mañana. Precio: gratis con park pass. Precauciones: la carretera tiene switchbacks muy cerrados; vehículos >7 m deben maniobrar marcha atrás y trailers no están permitidos. Además, para junio temprano puede seguir cerrada. Llevar: impermeable ligero por la brisa de la cascada.",
+          "icon": "waterfall",
+          "imageQuery": "Takakkaw Falls Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 63,
+          "phase": "3:00 PM",
+          "title": "Shuttle Morraine Lake",
+          "description": "INPC26-4028073B1",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Park+and+Ride",
+          "research": "Duración: 30-60 min en Moraine si solo hacen Rockpile; 2-3 h si se quedan más. Usuarios: la reserva se pelea fuerte y el check-in puntual importa; el conector entre lagos suele tomar 20-30 min. Precio oficial: shuttle adulto C$12.75, senior C$6, youth C$4 + C$3.50 reserva online. Precauciones: Moraine Lake Road está cerrada a vehículos particulares todo el año. Llevar: agua, abrigo y screenshot de reserva.",
+          "icon": "car",
+          "imageQuery": "Shuttle Morraine Lake Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80"
+        }
+      ],
+      "sourceRows": {
+        "start": 58,
+        "end": 65
+      },
+      "optimizedTitle": "Viernes 5 de Junio: Yoho y Moraine Lake (Día de Logística Crítica)",
+      "activityCount": 7,
+      "scheduleCount": 4,
+      "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "id": "day-6-6",
+      "dateLabel": "6/6",
+      "isoDate": "2026-06-06",
+      "dayCode": "SAT",
+      "dayName": "Saturday",
+      "title": "Banff area",
+      "stay": "Airbnb, Harvie Heights",
+      "imageQuery": "Banff area Banff, Alberta, CA waterfalls mountains",
+      "schedule": [
+        {
+          "row": 68,
+          "time": "5:00 AM",
+          "title": "Breakfast",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Breakfast Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 69,
+          "time": "6:00 AM",
+          "title": "Johnston Canyon",
+          "note": "",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Johnston+Canyon",
+          "research": "Duración: 1-2 h según lleguen a Lower o Upper Falls. Usuarios: sigue siendo mejor entrar muy temprano o casi al atardecer para evitar masas. Precio: gratis con park pass. Precauciones: pasarela húmeda, barandales y mucho cruce de gente. Llevar: tenis con agarre, agua y una capa por spray/llovizna.",
+          "icon": "waterfall",
+          "imageQuery": "Johnston Canyon Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 70,
+          "time": "11:00 AM",
+          "title": "11:00 AM",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "pin",
+          "imageQuery": "11:00 AM Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 71,
+          "time": "3:00 PM",
+          "title": "Shuttle Lake Louise",
+          "note": "INPC26-4026364B1",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Park+and+Ride",
+          "research": "Duración: lakeshore 1 h; Lake Agnes 3-6 h. Usuarios: Lake Louise parking es muy limitado/caro; la shuttle suele ser la opción menos frustrante y muchos llevan efectivo por si falla la terminal del tea house. Precio: shuttle adulto C$12.75 + C$3.50 reserva online; estacionamiento de Lake Louise Lakeshore C$42 por vehículo/día. Precauciones: si no traes reserva, es muy probable que batalles con el acceso. Llevar: agua, snack, cash y rompevientos.",
+          "icon": "food",
+          "imageQuery": "Shuttle Lake Louise Banff Jasper Canadian Rockies"
+        }
+      ],
+      "activities": [
+        {
+          "row": 41,
+          "phase": "Ruta",
+          "title": "Johnston Canyon y Lake Louise",
+          "description": "Johnston Canyon y Lake Louise",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Harvie+Heights+AB&destination=Johnston+Canyon&travelmode=driving",
+          "research": "Duración: Johnston 1-2 h para falls; con Lake Louise/Agnes el día se va a 6-8 h. Usuarios: Johnston rinde mejor muy temprano y Lake Louise casi siempre necesita logística previa. Precio: Johnston gratis con park pass; Louise/Moraine shuttle aparte si lo usan. Precauciones: no subestimen tiempos de traslado y colas. Llevar: agua, snack, capas y calzado antideslizante.",
+          "icon": "waterfall",
+          "imageQuery": "Johnston Canyon y Lake Louise Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 42,
+          "phase": "Mañana (Muy temprano)",
+          "title": "Johnston Canyon",
+          "description": "Johnston Canyon. Debes estar ahí a las 7:30 AM para evitar las masas de turistas.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Johnston+Canyon",
+          "research": "Duración: Lower Falls 1 h ida/vuelta; Upper Falls 2 h ida/vuelta. Usuarios: llegando 7:30 am todavía suele haber espacio y menos gente; cerca de 9-9:15 am ya puede llenarse. Precio: gratis con park pass. Precauciones: pasarelas mojadas/resbalosas y mucha gente más tarde. Llevar: tenis con agarre, agua y capa ligera.",
+          "icon": "waterfall",
+          "imageQuery": "Johnston Canyon Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 44,
+          "phase": "Mediodía/Tarde",
+          "title": "Shuttle a Lake Louise (ya reservado)",
+          "description": "Shuttle a Lake Louise (ya reservado).",
+          "mapUrl": "",
+          "research": "",
+          "icon": "lake",
+          "imageQuery": "Shuttle a Lake Louise (ya reservado) Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 45,
+          "phase": "Caminata",
+          "title": "Aquí es donde debes hacer el Lake Agnes Tea House Trail",
+          "description": "Aquí es donde debes hacer el Lake Agnes Tea House Trail. El Tea House abre justo el 1 de junio, así que podrás comprar un té y un snack arriba. Son unos 7km ida y vuelta con pendiente moderada.",
+          "mapUrl": "",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Aquí es donde debes hacer el Lake Agnes Tea House Trail Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 69,
+          "phase": "6:00 AM",
+          "title": "Johnston Canyon",
+          "description": "Johnston Canyon",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Johnston+Canyon",
+          "research": "Duración: 1-2 h según lleguen a Lower o Upper Falls. Usuarios: sigue siendo mejor entrar muy temprano o casi al atardecer para evitar masas. Precio: gratis con park pass. Precauciones: pasarela húmeda, barandales y mucho cruce de gente. Llevar: tenis con agarre, agua y una capa por spray/llovizna.",
+          "icon": "waterfall",
+          "imageQuery": "Johnston Canyon Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 71,
+          "phase": "3:00 PM",
+          "title": "Shuttle Lake Louise",
+          "description": "INPC26-4026364B1",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Park+and+Ride",
+          "research": "Duración: lakeshore 1 h; Lake Agnes 3-6 h. Usuarios: Lake Louise parking es muy limitado/caro; la shuttle suele ser la opción menos frustrante y muchos llevan efectivo por si falla la terminal del tea house. Precio: shuttle adulto C$12.75 + C$3.50 reserva online; estacionamiento de Lake Louise Lakeshore C$42 por vehículo/día. Precauciones: si no traes reserva, es muy probable que batalles con el acceso. Llevar: agua, snack, cash y rompevientos.",
+          "icon": "food",
+          "imageQuery": "Shuttle Lake Louise Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80"
+        }
+      ],
+      "sourceRows": {
+        "start": 66,
+        "end": 75
+      },
+      "optimizedTitle": "Sábado 6 de Junio: Johnston Canyon y Lake Louise",
+      "activityCount": 6,
+      "scheduleCount": 4,
+      "fallbackImage": "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "id": "day-6-7",
+      "dateLabel": "6/7",
+      "isoDate": "2026-06-07",
+      "dayCode": "SUN",
+      "dayName": "Sunday",
+      "title": "Banff to Calgary",
+      "stay": "Airbnb, Harvie Heights",
+      "imageQuery": "Banff to Calgary Banff, Alberta, CA waterfalls mountains",
+      "schedule": [
+        {
+          "row": 77,
+          "time": "",
+          "title": "Check-out",
+          "note": "Notes",
+          "mapUrl": "",
+          "research": "",
+          "icon": "bed",
+          "imageQuery": "Check-out Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 78,
+          "time": "5:00 AM",
+          "title": "5:00 AM",
+          "note": "2 hour drive to Calgary",
+          "mapUrl": "",
+          "research": "",
+          "icon": "car",
+          "imageQuery": "5:00 AM Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 80,
+          "time": "",
+          "title": "WESTJET WS 2278",
+          "note": "Calgary to Guadalajara",
+          "mapUrl": "",
+          "research": "",
+          "icon": "plane",
+          "imageQuery": "WESTJET WS 2278 Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 81,
+          "time": "",
+          "title": "Depart · Airport",
+          "note": "Notes",
+          "mapUrl": "",
+          "research": "",
+          "icon": "plane",
+          "imageQuery": "Depart · Airport Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 82,
+          "time": "9:20 AM",
+          "title": "YYC",
+          "note": "Confirmation: FDAVZV | Nonstop flight; 5.10 hrs",
+          "mapUrl": "",
+          "research": "",
+          "icon": "plane",
+          "imageQuery": "YYC Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 84,
+          "time": "",
+          "title": "Arrive",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "pin",
+          "imageQuery": "Arrive Banff Jasper Canadian Rockies"
+        },
+        {
+          "row": 85,
+          "time": "2:35 PM",
+          "title": "GDL",
+          "note": "",
+          "mapUrl": "",
+          "research": "",
+          "icon": "plane",
+          "imageQuery": "GDL Banff Jasper Canadian Rockies"
+        }
+      ],
+      "activities": [
+        {
+          "row": 48,
+          "phase": "Plan",
+          "title": "Manejo de regreso al aeropuerto de Calgary (YYC)",
+          "description": "Manejo de regreso al aeropuerto de Calgary (YYC). Considera 2 horas por si hay tráfico de fin de semana.",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Banff+AB&destination=Calgary+International+Airport&travelmode=driving",
+          "research": "Duración sugerida: 1.5-2 h, pero para vuelo conviene salir con 2.5-3 h de colchón. Usuarios: el fin de semana puede cargarse el regreso hacia Calgary. Precio: gasolina + devolución del auto. Precauciones: revisa tiempo de devolución del rental y que no dejes compras/combustible para el final. Llevar: pasaportes, tarjetas, cargadores y termo vacío.",
+          "icon": "plane",
+          "imageQuery": "Manejo de regreso al aeropuerto de Calgary (YYC) Banff Jasper Canadian Rockies waterfalls mountains",
+          "fallbackImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80"
+        }
+      ],
+      "sourceRows": {
+        "start": 76,
+        "end": 187
+      },
+      "optimizedTitle": "Domingo 7 de Junio: Banff → Calgary → Mex",
+      "activityCount": 1,
+      "scheduleCount": 7,
+      "fallbackImage": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80"
+    }
+  ],
+  "fallbackImages": [
+    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1400&q=80",
+    "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80"
+  ]
+}
