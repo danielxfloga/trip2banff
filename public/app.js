@@ -42,7 +42,9 @@ const iconSvg = {
   waterfall: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 3h14"/><path d="M8 3c0 4 3 4 3 8s-3 4-3 8"/><path d="M14 3c0 3 2 4 2 7 0 4-4 4-4 9"/><path d="M4 21c2-2 5-2 8 0s6 2 8 0"/></svg>',
   lake: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M3 21c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="m5 13 4-6 3 4 2-3 5 5"/></svg>',
   mountain: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m3 20 7-14 4 8 2-4 5 10H3Z"/><path d="m10 6 2 4 2-1"/></svg>',
-  pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 21s7-5.2 7-12A7 7 0 0 0 5 9c0 6.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>'
+  pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 21s7-5.2 7-12A7 7 0 0 0 5 9c0 6.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>',
+  note: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4h16v16H4z"/><path d="M8 8h8"/><path d="M8 12h8"/><path d="M8 16h5"/></svg>',
+  image: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="m21 15-5-5L5 19"/></svg>'
 };
 
 const $ = selector => document.querySelector(selector);
@@ -53,11 +55,27 @@ function escapeHtml(value = '') {
 }
 
 function imageSearchUrl(query) {
-  return `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(query || 'Banff Canada mountains waterfalls')}`;
+  return `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(query || 'Banff Canadá montañas cascadas')}`;
 }
 
-function mapIcon() {
-  return '<span aria-hidden="true">-></span>';
+function actionIcon(name) {
+  return `<span class="action-icon" aria-hidden="true">${iconSvg[name] || iconSvg.pin}</span>`;
+}
+
+function actionLabel(iconName, label) {
+  return `${actionIcon(iconName)}<span>${escapeHtml(label)}</span>`;
+}
+
+function iconOnlyLabel(iconName) {
+  return actionIcon(iconName);
+}
+
+function notesLabel(isOpen) {
+  return isOpen ? 'Ocultar notas' : 'Ver notas';
+}
+
+function notesButtonMarkup(isOpen) {
+  return iconOnlyLabel('note');
 }
 
 async function sha256(value) {
@@ -167,7 +185,7 @@ function setActiveDay(dayId) {
   $('#activeDayName').textContent = `${day.dateLabel} - ${day.title}`;
   $('#timelineTitle').textContent = day.optimizedTitle || day.title;
   $('#googleImagesLink').href = imageSearchUrl(day.imageQuery);
-  $('#googleImagesLink').textContent = 'Open image search';
+  $('#googleImagesLink').innerHTML = actionLabel('image', 'Buscar imágenes');
   renderDays();
   renderTimeline(day);
   hydrateImages();
@@ -179,14 +197,14 @@ function renderHero() {
   const activityCount = days.reduce((sum, day) => sum + day.activities.length, 0);
   const mapCount = days.reduce((sum, day) => sum + day.activities.filter(x => x.mapUrl).length + day.schedule.filter(x => x.mapUrl).length, 0);
   $('#tripTitle').textContent = metadata.title;
-  $('#tripSubtitle').textContent = `${metadata.travelers} - ${metadata.dates} - ${metadata.destination}. Travel details organized into cards, maps, research notes, and a day-by-day timeline.`;
+  $('#tripSubtitle').textContent = `${metadata.travelers} - ${metadata.dates} - ${metadata.destination}. Detalles del viaje organizados en tarjetas, mapas, notas de investigación y línea de tiempo por día.`;
   $('#heroStats').innerHTML = `
-    <div class="stat"><strong>${days.length}</strong><span>Days</span></div>
-    <div class="stat"><strong>${activityCount}</strong><span>Timeline items</span></div>
-    <div class="stat"><strong>${mapCount}</strong><span>Map links</span></div>`;
+    <div class="stat"><strong>${days.length}</strong><span>Días</span></div>
+    <div class="stat"><strong>${activityCount}</strong><span>Actividades</span></div>
+    <div class="stat"><strong>${mapCount}</strong><span>Rutas</span></div>`;
   const first = days[1] || days[0];
   $('.hero-image').dataset.imageKey = 'hero';
-  $('.hero-image').dataset.imageQuery = `${metadata.destination} waterfalls mountains lake`;
+  $('.hero-image').dataset.imageQuery = `${metadata.destination} cascadas montañas lago`;
   $('.hero-image').dataset.fallback = first.fallbackImage;
 }
 
@@ -199,7 +217,7 @@ function renderDays() {
   renderChips();
   const filtered = state.data.days.filter(day => dayMatches(day, state.query));
   if (!filtered.length) {
-    $('#dayGrid').innerHTML = '<div class="empty-state no-results"><h3>No matches</h3><p>Try another term such as Banff, Jasper, Lake, shuttle, or waterfall.</p></div>';
+    $('#dayGrid').innerHTML = '<div class="empty-state no-results"><h3>Sin resultados</h3><p>Prueba con Banff, Jasper, Lake Louise, traslado o cascadas.</p></div>';
     return;
   }
   $('#dayGrid').innerHTML = filtered.map((day, index) => `
@@ -209,8 +227,8 @@ function renderDays() {
         <span class="date-pill">${escapeHtml(day.dayCode)} - ${escapeHtml(day.dateLabel)}</span>
         <h3>${escapeHtml(day.optimizedTitle || day.title)}</h3>
         <div class="day-card-meta">
-          <span class="meta-pill">${iconSvg.bed} ${escapeHtml(day.stay || 'Transit')}</span>
-          <span class="meta-pill">${iconSvg.pin} ${day.activities.length} stops</span>
+          <span class="meta-pill">${iconSvg.bed} ${escapeHtml(day.stay || 'Traslado')}</span>
+          <span class="meta-pill">${iconSvg.pin} ${day.activities.length} paradas</span>
         </div>
       </div>
     </article>`).join('');
@@ -224,7 +242,7 @@ function renderTimeline(day) {
       <div class="day-intro">
         <span class="eyebrow">${escapeHtml(day.dayName)} - ${escapeHtml(day.dateLabel)}</span>
         <h2>${escapeHtml(day.optimizedTitle || day.title)}</h2>
-        <p>${escapeHtml(day.stay ? `Base / lodging: ${day.stay}.` : 'Transit day.')} These travel details are organized with map links, research notes, image search, and a day-by-day timeline.</p>
+        <p>${escapeHtml(day.stay ? `Base / hospedaje: ${day.stay}.` : 'Día de traslado.')} Estos detalles incluyen mapas, notas de investigación, búsqueda de imágenes y una línea de tiempo por día.</p>
       </div>
       <div class="day-photo" data-image-key="day-photo-${escapeHtml(day.id)}" data-image-query="${escapeHtml(day.imageQuery)}" data-fallback="${escapeHtml(day.fallbackImage)}"></div>
     </div>
@@ -238,7 +256,10 @@ function renderTimeline(day) {
     const key = button.dataset.key;
     card.classList.toggle('open');
     if (card.classList.contains('open')) state.expanded.add(key); else state.expanded.delete(key);
-    button.textContent = card.classList.contains('open') ? 'Hide notes' : 'Show notes';
+    const isOpen = card.classList.contains('open');
+    button.innerHTML = notesButtonMarkup(isOpen);
+    button.setAttribute('aria-label', notesLabel(isOpen));
+    button.title = notesLabel(isOpen);
   }));
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -251,16 +272,17 @@ function renderTimeline(day) {
 function renderTimelineItem(item, index) {
   const key = `${item.row || index}`;
   const hasDetails = item.research || item.description;
-  const googleQuery = item.imageQuery || `${item.title} Banff Canada`;
+  const googleQuery = item.imageQuery || `${item.title} Banff Canadá`;
+  const noteIsOpen = state.expanded.has(key);
   const actions = [
-    item.mapUrl ? `<a class="tiny-link" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noreferrer">Google Maps ${mapIcon()}</a>` : '',
-    `<a class="tiny-link" href="${escapeHtml(imageSearchUrl(googleQuery))}" target="_blank" rel="noreferrer">Image search ${mapIcon()}</a>`,
-    hasDetails ? `<button class="toggle-more" data-key="${escapeHtml(key)}" type="button">${state.expanded.has(key) ? 'Hide notes' : 'Show notes'}</button>` : ''
+    item.mapUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noreferrer" aria-label="Abrir ruta">${iconOnlyLabel('pin')}</a>` : '',
+    `<a class="tiny-link icon-only" href="${escapeHtml(imageSearchUrl(googleQuery))}" target="_blank" rel="noreferrer" aria-label="Buscar imágenes" title="Buscar imágenes">${iconOnlyLabel('image')}</a>`,
+    hasDetails ? `<button class="toggle-more icon-only" data-key="${escapeHtml(key)}" type="button" aria-label="${notesLabel(noteIsOpen)}" title="${notesLabel(noteIsOpen)}">${notesButtonMarkup(noteIsOpen)}</button>` : ''
   ].join('');
   return `
     <article class="timeline-item" style="transition-delay:${Math.min(index * 70, 560)}ms">
       <span class="timeline-dot"></span>
-      <div class="time-block"><strong>${escapeHtml(item.phase || item.time || 'Plan')}</strong><span>Row ${escapeHtml(item.row)}</span></div>
+      <div class="time-block"><strong>${escapeHtml(item.phase || item.time || 'Plan')}</strong><span>Fila ${escapeHtml(item.row)}</span></div>
       <div class="timeline-card ${state.expanded.has(key) ? 'open' : ''}">
         <div class="timeline-card-main">
           <div class="timeline-copy">
@@ -268,7 +290,7 @@ function renderTimelineItem(item, index) {
               <span class="icon-bubble">${iconSvg[item.icon] || iconSvg.pin}</span>
               <div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description || item.note || '')}</p></div>
             </div>
-            ${item.research ? `<div class="research"><strong>Useful research</strong><br>${escapeHtml(item.research)}</div>` : ''}
+            ${item.research ? `<div class="research"><strong>Investigación útil</strong><br>${escapeHtml(item.research)}</div>` : ''}
             <div class="timeline-actions">${actions}</div>
           </div>
           <div class="activity-image" data-image-key="activity-${escapeHtml(key)}-${index}" data-image-query="${escapeHtml(googleQuery)}" data-fallback="${escapeHtml(item.fallbackImage || '')}"></div>
@@ -282,12 +304,12 @@ function renderSchedule(schedule) {
   if (!schedule.length) return '';
   return `
     <div class="schedule-list">
-      <h3>Travel details</h3>
+      <h3>Detalles del viaje</h3>
       <div class="schedule-grid">
         ${schedule.map(item => `
           <div class="schedule-item">
             <span class="schedule-time">${escapeHtml(item.time || '-')}</span>
-            <div><div class="schedule-title">${escapeHtml(item.title)}</div>${item.note ? `<p>${escapeHtml(item.note)}</p>` : ''}${item.mapUrl ? `<a class="tiny-link" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noreferrer">Map ${mapIcon()}</a>` : ''}</div>
+            <div><div class="schedule-title">${escapeHtml(item.title)}</div>${item.note ? `<p>${escapeHtml(item.note)}</p>` : ''}${item.mapUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noreferrer" aria-label="Abrir ruta">${iconOnlyLabel('pin')}</a>` : ''}</div>
           </div>`).join('')}
       </div>
     </div>`;
@@ -301,7 +323,7 @@ async function loadTrip() {
   }
 
   const response = await fetch('itinerary.json', { cache: 'no-cache' });
-  if (!response.ok) throw new Error('Cannot load travel details');
+  if (!response.ok) throw new Error('No se pudieron cargar los detalles del viaje');
 
   state.data = await response.json();
   state.activeDayId = state.data.days[0]?.id;
@@ -340,6 +362,6 @@ async function init() {
 
 init().catch(error => {
   showTrip();
-  $('#tripTitle').textContent = 'Cannot load travel details';
+  $('#tripTitle').textContent = 'No se pudieron cargar los detalles del viaje';
   $('#tripSubtitle').textContent = error.message;
 });

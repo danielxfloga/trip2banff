@@ -389,6 +389,7 @@ p { color: var(--muted); line-height: 1.65; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   text-decoration: none;
   border-radius: 999px;
   padding: 12px 16px;
@@ -528,6 +529,7 @@ p { color: var(--muted); line-height: 1.65; }
 .tiny-link, .toggle-more {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 7px;
   border: 1px solid rgba(14,116,144,.16);
   color: var(--ink);
@@ -540,6 +542,30 @@ p { color: var(--muted); line-height: 1.65; }
   font-size: 13px;
 }
 .tiny-link:hover, .toggle-more:hover { background: var(--teal); color: white; }
+.action-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+}
+.action-icon svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2.2;
+}
+.icon-only {
+  width: 38px;
+  height: 38px;
+  padding: 9px;
+}
+.map-link .action-icon {
+  width: 20px;
+  height: 20px;
+}
+.map-link .action-icon svg {
+  width: 20px;
+  height: 20px;
+}
 .activity-image {
   min-height: 100%;
   background: linear-gradient(180deg, rgba(8,31,39,.03), rgba(8,31,39,.26)), var(--img) center/cover;
@@ -547,7 +573,7 @@ p { color: var(--muted); line-height: 1.65; }
   position: relative;
 }
 .activity-image::after {
-  content: "Scenic view";
+  content: "Vista";
   position: absolute;
   right: 12px;
   bottom: 12px;
