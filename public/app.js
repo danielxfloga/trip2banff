@@ -275,6 +275,8 @@ function renderTimelineItem(item, index) {
   const googleQuery = item.imageQuery || `${item.title} Banff Canadá`;
   const noteIsOpen = state.expanded.has(key);
   const actions = [
+    item.flightUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.flightUrl)}" target="_blank" rel="noreferrer" aria-label="Ver vuelo en FlightAware">${iconOnlyLabel('plane')}</a>` : '',
+    item.foodUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.foodUrl)}" target="_blank" rel="noreferrer" aria-label="Comida">${iconOnlyLabel('food')}</a>` : '',
     item.mapUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noreferrer" aria-label="Abrir ruta">${iconOnlyLabel('pin')}</a>` : '',
     `<a class="tiny-link icon-only" href="${escapeHtml(imageSearchUrl(googleQuery))}" target="_blank" rel="noreferrer" aria-label="Buscar imágenes" title="Buscar imágenes">${iconOnlyLabel('image')}</a>`,
     hasDetails ? `<button class="toggle-more icon-only" data-key="${escapeHtml(key)}" type="button" aria-label="${notesLabel(noteIsOpen)}" title="${notesLabel(noteIsOpen)}">${notesButtonMarkup(noteIsOpen)}</button>` : ''
@@ -309,7 +311,7 @@ function renderSchedule(schedule) {
         ${schedule.map(item => `
           <div class="schedule-item">
             <span class="schedule-time">${escapeHtml(item.time || '-')}</span>
-            <div><div class="schedule-title">${escapeHtml(item.title)}</div>${item.note ? `<p>${escapeHtml(item.note)}</p>` : ''}${item.mapUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noreferrer" aria-label="Abrir ruta">${iconOnlyLabel('pin')}</a>` : ''}</div>
+            <div><div class="schedule-title">${escapeHtml(item.title)}</div>${item.note ? `<p>${escapeHtml(item.note)}</p>` : ''}${item.flightUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.flightUrl)}" target="_blank" rel="noreferrer" aria-label="Ver vuelo en FlightAware">${iconOnlyLabel('plane')}</a>` : ''}${item.foodUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.foodUrl)}" target="_blank" rel="noreferrer" aria-label="Comida">${iconOnlyLabel('food')}</a>` : ''}${item.mapUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noreferrer" aria-label="Abrir ruta">${iconOnlyLabel('pin')}</a>` : ''}</div>
           </div>`).join('')}
       </div>
     </div>`;

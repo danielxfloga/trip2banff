@@ -25,6 +25,7 @@
           "title": "Salida de GDL",
           "note": "Vuelo WestJet WS 2279. Confirmación: FDAVZV. Vuelo directo: 5 h 10 min.",
           "mapUrl": "",
+          "flightUrl": "https://es.flightaware.com/live/flight/WJA2279",
           "research": "",
           "icon": "plane",
           "imageQuery": "Salida de GDL Rocosas Canadienses Banff Jasper lagos montañas cascadas"
@@ -67,7 +68,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=restaurantes+cerca+de+Element+Calgary+Airport",
           "research": "",
           "icon": "food",
-          "imageQuery": "Cena después del check-in Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Cena después del check-in Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Element%20Calgary%20Airport%20Calgary"
         }
       ],
       "activities": [
@@ -77,6 +79,7 @@
           "title": "Llegada a Calgary (YYC)",
           "description": "Llegada del vuelo WestJet WS 2279 y traslado al hotel del aeropuerto.",
           "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Calgary+International+Airport&destination=Element+Calgary+Airport&travelmode=driving",
+          "flightUrl": "https://es.flightaware.com/live/flight/WJA2279",
           "research": "Conviene tener a la mano pasaportes, confirmación del hotel y licencia para renta del auto. El traslado al hotel es corto, pero considera tiempo de migración y equipaje.",
           "icon": "plane",
           "imageQuery": "Llegada a Calgary (YYC) Rocosas Canadienses Banff Jasper lagos montañas cascadas",
@@ -113,7 +116,8 @@
           "research": "Mantenerlo simple: comida para llevar o restaurante cercano, porque al día siguiente conviene salir temprano a comprar víveres en Calgary.",
           "icon": "food",
           "imageQuery": "Cena cerca del hotel Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
+          "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Element%20Calgary%20Airport%20Calgary"
         }
       ],
       "sourceRows": {
@@ -143,7 +147,8 @@
           "mapUrl": "",
           "research": "",
           "icon": "food",
-          "imageQuery": "Desayuno y check-out en Calgary Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Desayuno y check-out en Calgary Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Element%20Calgary%20Airport%20Calgary"
         },
         {
           "row": 27,
@@ -173,7 +178,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Harvie+Heights+AB",
           "research": "",
           "icon": "car",
-          "imageQuery": "Llegada a Canmore / Harvie Heights Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Llegada a Canmore / Harvie Heights Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Canmore%20Alberta"
         },
         {
           "row": 30,
@@ -203,7 +209,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Avenue+restaurantes",
           "research": "",
           "icon": "food",
-          "imageQuery": "Pueblo de Banff y cena Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Pueblo de Banff y cena Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Banff%20Avenue%20Banff%20Alberta"
         }
       ],
       "activities": [
@@ -260,7 +267,8 @@
           "research": "Banff se llena mucho; si ven estacionamiento disponible, conviene caminar desde ahí y no mover el auto varias veces.",
           "icon": "food",
           "imageQuery": "Pueblo de Banff y cena Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1400&q=80"
+          "fallbackImage": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1400&q=80",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Banff%20Avenue%20Banff%20Alberta"
         }
       ],
       "sourceRows": {
@@ -300,7 +308,8 @@
           "mapUrl": "",
           "research": "",
           "icon": "food",
-          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Harvie%20Heights%20Alberta"
         },
         {
           "row": 36,
@@ -340,7 +349,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Avenue",
           "research": "",
           "icon": "food",
-          "imageQuery": "Pueblo de Banff Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Pueblo de Banff Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Banff%20Avenue%20Banff%20Alberta"
         }
       ],
       "activities": [
@@ -427,7 +437,8 @@
           "mapUrl": "",
           "research": "",
           "icon": "food",
-          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Canmore%20Alberta"
         },
         {
           "row": 45,
@@ -468,6 +479,17 @@
           "research": "",
           "icon": "mountain",
           "imageQuery": "Athabasca Glacier Trailhead Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+        },
+        {
+          "row": 48.5,
+          "time": "12:15 PM",
+          "title": "Comida en ruta / Columbia Icefield",
+          "note": "Opciones limitadas en la ruta; llevar snacks por si algo está cerrado.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Columbia+Icefield+Discovery+Centre+restaurants",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Columbia%20Icefield%20Discovery%20Centre",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Comida en ruta / Columbia Icefield Rocosas Canadienses Banff Jasper lagos montañas cascadas"
         },
         {
           "row": 49,
@@ -597,7 +619,8 @@
           "research": "Después de un día largo de carretera, evitar agregar caminatas pesadas en Jasper esa noche.",
           "icon": "bed",
           "imageQuery": "Check-in en Tonquin Inn Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80"
+          "fallbackImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Tonquin%20Inn%20Jasper%20Alberta"
         }
       ],
       "sourceRows": {
@@ -606,7 +629,7 @@
       },
       "optimizedTitle": "Miércoles 3 de junio: Icefields Parkway -> Jasper",
       "activityCount": 8,
-      "scheduleCount": 9,
+      "scheduleCount": 10,
       "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80"
     },
     {
@@ -627,7 +650,8 @@
           "mapUrl": "",
           "research": "",
           "icon": "food",
-          "imageQuery": "Desayuno en Jasper Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Desayuno en Jasper Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Jasper%20Alberta"
         },
         {
           "row": 59,
@@ -667,7 +691,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=gasolina+restaurantes+Jasper+AB",
           "research": "",
           "icon": "food",
-          "imageQuery": "Comida y gasolina en Jasper Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Comida y gasolina en Jasper Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Jasper%20Alberta"
         },
         {
           "row": 63,
@@ -764,7 +789,8 @@
           "mapUrl": "",
           "research": "",
           "icon": "food",
-          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Canmore%20Alberta"
         },
         {
           "row": 67,
@@ -785,6 +811,17 @@
           "research": "",
           "icon": "waterfall",
           "imageQuery": "Takakkaw Falls Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+        },
+        {
+          "row": 68.5,
+          "time": "12:30 PM",
+          "title": "Comida en Lake Louise Village",
+          "note": "Pausa para comer antes del traslado a Lake Louise.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Village+restaurants",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Lake%20Louise%20Village%20Alberta",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Comida en Lake Louise Village Rocosas Canadienses Banff Jasper lagos montañas cascadas"
         },
         {
           "row": 69,
@@ -860,7 +897,7 @@
       },
       "optimizedTitle": "Viernes 5 de junio: Yoho y Lake Louise (logística crítica)",
       "activityCount": 5,
-      "scheduleCount": 4,
+      "scheduleCount": 5,
       "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
     },
     {
@@ -881,7 +918,8 @@
           "mapUrl": "",
           "research": "",
           "icon": "food",
-          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Canmore%20Alberta"
         },
         {
           "row": 73,
@@ -901,7 +939,8 @@
           "mapUrl": "",
           "research": "",
           "icon": "food",
-          "imageQuery": "Almuerzo / descanso Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Almuerzo / descanso Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Lake%20Louise%20Village%20Alberta"
         },
         {
           "row": 75,
@@ -1000,11 +1039,23 @@
           "imageQuery": "Salida hacia el aeropuerto de Calgary Rocosas Canadienses Banff Jasper lagos montañas cascadas"
         },
         {
+          "row": 79,
+          "time": "7:00 AM",
+          "title": "Desayuno en YYC",
+          "note": "Opciones de comida antes del vuelo de regreso.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calgary+International+Airport+restaurants",
+          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Calgary%20International%20Airport",
+          "research": "",
+          "icon": "food",
+          "imageQuery": "Desayuno en YYC Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+        },
+        {
           "row": 80,
           "time": "",
           "title": "WestJet WS 2278",
           "note": "Vuelo Calgary -> Guadalajara.",
           "mapUrl": "",
+          "flightUrl": "https://es.flightaware.com/live/flight/WJA2278",
           "research": "",
           "icon": "plane",
           "imageQuery": "WestJet WS 2278 Rocosas Canadienses Banff Jasper lagos montañas cascadas"
@@ -1061,6 +1112,18 @@
           "icon": "plane",
           "imageQuery": "Manejo al aeropuerto de Calgary (YYC) Rocosas Canadienses Banff Jasper lagos montañas cascadas",
           "fallbackImage": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1400&q=80"
+        },
+        {
+          "row": 82,
+          "phase": "9:20 AM",
+          "title": "Vuelo WestJet WS 2278",
+          "description": "Calgary -> Guadalajara.",
+          "mapUrl": "",
+          "flightUrl": "https://es.flightaware.com/live/flight/WJA2278",
+          "research": "",
+          "icon": "plane",
+          "imageQuery": "WestJet WS 2278 Banff Jasper Canadian Rockies",
+          "fallbackImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80"
         }
       ],
       "sourceRows": {
@@ -1068,8 +1131,8 @@
         "end": 187
       },
       "optimizedTitle": "Domingo 7 de junio: Banff -> Calgary -> México",
-      "activityCount": 1,
-      "scheduleCount": 7,
+      "activityCount": 2,
+      "scheduleCount": 8,
       "fallbackImage": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80"
     }
   ],
