@@ -58,6 +58,71 @@ function imageSearchUrl(query) {
   return `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(query || 'Banff Canadá montañas cascadas')}`;
 }
 
+function googleMapsEmbedUrl(url, fallbackQuery = 'Banff Alberta') {
+  const fallback = new URLSearchParams({ output: 'embed', q: fallbackQuery }).toString();
+  if (!url) return `https://www.google.com/maps?${fallback}`;
+
+  try {
+    const parsed = new URL(url, window.location.href);
+    const path = parsed.pathname;
+
+    if (path.includes('/maps/dir/')) {
+      const origin = parsed.searchParams.get('origin') || fallbackQuery;
+      const destination = parsed.searchParams.get('destination') || fallbackQuery;
+      const waypoints = parsed.searchParams.get('waypoints');
+      const routeTarget = [waypoints, destination].filter(Boolean).join(' to ');
+      const params = new URLSearchParams({ output: 'embed', saddr: origin, daddr: routeTarget });
+      return `https://www.google.com/maps?${params.toString()}`;
+    }
+
+    if (path.includes('/maps/search')) {
+      const pathQuery = decodeURIComponent((path.split('/maps/search/')[1] || '').split('/@')[0] || '').replace(/\+/g, ' ');
+      const query = parsed.searchParams.get('query') || pathQuery || fallbackQuery;
+      const params = new URLSearchParams({ output: 'embed', q: query });
+      const coords = path.match(/@(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?),(\d+)z/);
+      if (coords) {
+        params.set('ll', `${coords[1]},${coords[2]}`);
+        params.set('z', coords[3]);
+      }
+      return `https://www.google.com/maps?${params.toString()}`;
+    }
+  } catch {}
+
+  return `https://www.google.com/maps?${fallback}`;
+}
+
+function mapPanelId(context, type, key, index) {
+  return `map-${context}-${type}-${String(key || index).replace(/[^a-z0-9_-]/gi, '-')}-${index}`;
+}
+
+function mapToggleButton(type, targetId) {
+  const iconName = type === 'food' ? 'food' : 'pin';
+  const label = type === 'food' ? 'Comida' : 'Abrir ruta';
+  return `<button class="tiny-link icon-only map-toggle" data-map-target="${escapeHtml(targetId)}" type="button" aria-label="${label}">${iconOnlyLabel(iconName)}</button>`;
+}
+
+function renderEmbeddedMap(type, targetId, sourceUrl, fallbackQuery) {
+  const label = type === 'food' ? 'Restaurantes cercanos' : 'Mapa de la ruta';
+  return `
+    <div class="embedded-map" id="${escapeHtml(targetId)}" hidden>
+      <iframe title="${escapeHtml(label)}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen data-src="${escapeHtml(googleMapsEmbedUrl(sourceUrl, fallbackQuery))}"></iframe>
+    </div>`;
+}
+
+function bindMapToggles() {
+  $$('.map-toggle').forEach(button => button.addEventListener('click', () => {
+    const panel = document.getElementById(button.dataset.mapTarget);
+    if (!panel) return;
+    const frame = panel.querySelector('iframe');
+    const willOpen = panel.hidden;
+    panel.hidden = !willOpen;
+    panel.classList.toggle('open', willOpen);
+    button.classList.toggle('active', willOpen);
+    if (willOpen && frame && !frame.src) frame.src = frame.dataset.src;
+    if (willOpen) panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }));
+}
+
 function actionIcon(name) {
   return `<span class="action-icon" aria-hidden="true">${iconSvg[name] || iconSvg.pin}</span>`;
 }
@@ -261,6 +326,7 @@ function renderTimeline(day) {
     button.setAttribute('aria-label', notesLabel(isOpen));
     button.title = notesLabel(isOpen);
   }));
+  bindMapToggles();
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) entry.target.classList.add('visible');
@@ -274,12 +340,18 @@ function renderTimelineItem(item, index) {
   const hasDetails = item.research || item.description;
   const googleQuery = item.imageQuery || `${item.title} Banff Canadá`;
   const noteIsOpen = state.expanded.has(key);
+  const foodPanelId = item.foodUrl ? mapPanelId('timeline', 'food', key, index) : '';
+  const routePanelId = item.mapUrl ? mapPanelId('timeline', 'route', key, index) : '';
   const actions = [
     item.flightUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.flightUrl)}" target="_blank" rel="noreferrer" aria-label="Ver vuelo en FlightAware">${iconOnlyLabel('plane')}</a>` : '',
-    item.foodUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.foodUrl)}" target="_blank" rel="noreferrer" aria-label="Comida">${iconOnlyLabel('food')}</a>` : '',
-    item.mapUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noreferrer" aria-label="Abrir ruta">${iconOnlyLabel('pin')}</a>` : '',
+    item.foodUrl ? mapToggleButton('food', foodPanelId) : '',
+    item.mapUrl ? mapToggleButton('route', routePanelId) : '',
     `<a class="tiny-link icon-only" href="${escapeHtml(imageSearchUrl(googleQuery))}" target="_blank" rel="noreferrer" aria-label="Buscar imágenes" title="Buscar imágenes">${iconOnlyLabel('image')}</a>`,
     hasDetails ? `<button class="toggle-more icon-only" data-key="${escapeHtml(key)}" type="button" aria-label="${notesLabel(noteIsOpen)}" title="${notesLabel(noteIsOpen)}">${notesButtonMarkup(noteIsOpen)}</button>` : ''
+  ].join('');
+  const maps = [
+    item.foodUrl ? renderEmbeddedMap('food', foodPanelId, item.foodUrl, `Restaurants near ${item.title} Banff`) : '',
+    item.mapUrl ? renderEmbeddedMap('route', routePanelId, item.mapUrl, item.title) : ''
   ].join('');
   return `
     <article class="timeline-item" style="transition-delay:${Math.min(index * 70, 560)}ms">
@@ -297,9 +369,36 @@ function renderTimelineItem(item, index) {
           </div>
           <div class="activity-image" data-image-key="activity-${escapeHtml(key)}-${index}" data-image-query="${escapeHtml(googleQuery)}" data-fallback="${escapeHtml(item.fallbackImage || '')}"></div>
         </div>
+        ${maps}
         ${hasDetails ? `<div class="details-row"><p>${escapeHtml(item.research || item.description || '')}</p></div>` : ''}
       </div>
     </article>`;
+}
+
+function renderScheduleItem(item, index) {
+  const key = `${item.row || index}`;
+  const foodPanelId = item.foodUrl ? mapPanelId('schedule', 'food', key, index) : '';
+  const routePanelId = item.mapUrl ? mapPanelId('schedule', 'route', key, index) : '';
+  const actions = [
+    item.flightUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.flightUrl)}" target="_blank" rel="noreferrer" aria-label="Ver vuelo en FlightAware">${iconOnlyLabel('plane')}</a>` : '',
+    item.foodUrl ? mapToggleButton('food', foodPanelId) : '',
+    item.mapUrl ? mapToggleButton('route', routePanelId) : ''
+  ].join('');
+  const maps = [
+    item.foodUrl ? renderEmbeddedMap('food', foodPanelId, item.foodUrl, `Restaurants near ${item.title}`) : '',
+    item.mapUrl ? renderEmbeddedMap('route', routePanelId, item.mapUrl, item.title) : ''
+  ].join('');
+
+  return `
+    <div class="schedule-item">
+      <span class="schedule-time">${escapeHtml(item.time || '-')}</span>
+      <div class="schedule-copy">
+        <div class="schedule-title">${escapeHtml(item.title)}</div>
+        ${item.note ? `<p>${escapeHtml(item.note)}</p>` : ''}
+        <div class="timeline-actions">${actions}</div>
+        ${maps}
+      </div>
+    </div>`;
 }
 
 function renderSchedule(schedule) {
@@ -308,11 +407,7 @@ function renderSchedule(schedule) {
     <div class="schedule-list">
       <h3>Detalles del viaje</h3>
       <div class="schedule-grid">
-        ${schedule.map(item => `
-          <div class="schedule-item">
-            <span class="schedule-time">${escapeHtml(item.time || '-')}</span>
-            <div><div class="schedule-title">${escapeHtml(item.title)}</div>${item.note ? `<p>${escapeHtml(item.note)}</p>` : ''}${item.flightUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.flightUrl)}" target="_blank" rel="noreferrer" aria-label="Ver vuelo en FlightAware">${iconOnlyLabel('plane')}</a>` : ''}${item.foodUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.foodUrl)}" target="_blank" rel="noreferrer" aria-label="Comida">${iconOnlyLabel('food')}</a>` : ''}${item.mapUrl ? `<a class="tiny-link icon-only" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noreferrer" aria-label="Abrir ruta">${iconOnlyLabel('pin')}</a>` : ''}</div>
-          </div>`).join('')}
+        ${schedule.map((item, index) => renderScheduleItem(item, index)).join('')}
       </div>
     </div>`;
 }

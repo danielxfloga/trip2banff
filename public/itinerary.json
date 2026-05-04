@@ -69,7 +69,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Cena después del check-in Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Element%20Calgary%20Airport%20Calgary"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Element+Calgary+Airport+Calgary"
         }
       ],
       "activities": [
@@ -117,7 +117,7 @@
           "icon": "food",
           "imageQuery": "Cena cerca del hotel Rocosas Canadienses Banff Jasper lagos montañas cascadas",
           "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Element%20Calgary%20Airport%20Calgary"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Element+Calgary+Airport+Calgary"
         }
       ],
       "sourceRows": {
@@ -148,7 +148,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Desayuno y check-out en Calgary Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Element%20Calgary%20Airport%20Calgary"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Element+Calgary+Airport+Calgary"
         },
         {
           "row": 27,
@@ -179,7 +179,7 @@
           "research": "",
           "icon": "car",
           "imageQuery": "Llegada a Canmore / Harvie Heights Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Canmore%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Canmore+Alberta"
         },
         {
           "row": 30,
@@ -210,7 +210,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Pueblo de Banff y cena Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Banff%20Avenue%20Banff%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Banff+Avenue+Banff+Alberta"
         }
       ],
       "activities": [
@@ -268,7 +268,7 @@
           "icon": "food",
           "imageQuery": "Pueblo de Banff y cena Rocosas Canadienses Banff Jasper lagos montañas cascadas",
           "fallbackImage": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1400&q=80",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Banff%20Avenue%20Banff%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Banff+Avenue+Banff+Alberta"
         }
       ],
       "sourceRows": {
@@ -309,7 +309,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Harvie%20Heights%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Harvie+Heights+Alberta"
         },
         {
           "row": 36,
@@ -350,7 +350,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Pueblo de Banff Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Banff%20Avenue%20Banff%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Banff+Avenue+Banff+Alberta"
         }
       ],
       "activities": [
@@ -438,7 +438,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Canmore%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Canmore+Alberta"
         },
         {
           "row": 45,
@@ -486,7 +486,7 @@
           "title": "Comida en ruta / Columbia Icefield",
           "note": "Opciones limitadas en la ruta; llevar snacks por si algo está cerrado.",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Columbia+Icefield+Discovery+Centre+restaurants",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Columbia%20Icefield%20Discovery%20Centre",
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Columbia+Icefield+Discovery+Centre",
           "research": "",
           "icon": "food",
           "imageQuery": "Comida en ruta / Columbia Icefield Rocosas Canadienses Banff Jasper lagos montañas cascadas"
@@ -620,7 +620,7 @@
           "icon": "bed",
           "imageQuery": "Check-in en Tonquin Inn Rocosas Canadienses Banff Jasper lagos montañas cascadas",
           "fallbackImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Tonquin%20Inn%20Jasper%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Tonquin+Inn+Jasper+Alberta"
         }
       ],
       "sourceRows": {
@@ -651,7 +651,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Desayuno en Jasper Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Jasper%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Jasper+Alberta"
         },
         {
           "row": 59,
@@ -692,7 +692,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Comida y gasolina en Jasper Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Jasper%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Jasper+Alberta"
         },
         {
           "row": 63,
@@ -790,7 +790,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Canmore%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Canmore+Alberta"
         },
         {
           "row": 67,
@@ -818,7 +818,7 @@
           "title": "Comida en Lake Louise Village",
           "note": "Pausa para comer antes del traslado a Lake Louise.",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Village+restaurants",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Lake%20Louise%20Village%20Alberta",
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Lake+Louise+Village+Alberta",
           "research": "",
           "icon": "food",
           "imageQuery": "Comida en Lake Louise Village Rocosas Canadienses Banff Jasper lagos montañas cascadas"
@@ -919,7 +919,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=breakfast%20restaurants%20near%20Canmore%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Canmore+Alberta"
         },
         {
           "row": 73,
@@ -940,7 +940,7 @@
           "research": "",
           "icon": "food",
           "imageQuery": "Almuerzo / descanso Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Lake%20Louise%20Village%20Alberta"
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Lake+Louise+Village+Alberta"
         },
         {
           "row": 75,
@@ -1044,7 +1044,7 @@
           "title": "Desayuno en YYC",
           "note": "Opciones de comida antes del vuelo de regreso.",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calgary+International+Airport+restaurants",
-          "foodUrl": "https://www.tripadvisor.com/Search?q=restaurants%20near%20Calgary%20International%20Airport",
+          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Calgary+International+Airport",
           "research": "",
           "icon": "food",
           "imageQuery": "Desayuno en YYC Rocosas Canadienses Banff Jasper lagos montañas cascadas"

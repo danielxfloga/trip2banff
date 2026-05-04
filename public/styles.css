@@ -602,6 +602,40 @@ p { color: var(--muted); line-height: 1.65; }
   padding: 0 20px 18px 74px;
 }
 .timeline-card.open .details-row { display: block; }
+.tiny-link.active,
+.toggle-more.active {
+  background: var(--teal);
+  color: white;
+}
+.embedded-map {
+  margin: 0 20px 18px 74px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(14,116,144,.14);
+  background: #eaf8f8;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.44);
+  animation: unfoldMap .24s ease both;
+}
+.embedded-map iframe {
+  display: block;
+  width: 100%;
+  height: min(340px, 52vh);
+  border: 0;
+}
+.schedule-copy {
+  flex: 1;
+  min-width: 0;
+}
+.schedule-copy .timeline-actions {
+  margin-top: 10px;
+}
+.schedule-copy .embedded-map {
+  margin: 12px 0 0;
+}
+@keyframes unfoldMap {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 .schedule-list {
   margin-top: 20px;
   padding: 18px;
@@ -649,7 +683,26 @@ p { color: var(--muted); line-height: 1.65; }
   .hero-copy { padding: 24px; min-height: auto; }
   .hero-card { min-height: 340px; }
   .hero-stats { grid-template-columns: 1fr; }
-  .day-grid { grid-template-columns: 1fr; }
+  .day-grid {
+    display: flex;
+    grid-template-columns: none;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 11px;
+    margin-left: -11px;
+    margin-right: -11px;
+    padding: 2px 11px 12px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .day-grid::-webkit-scrollbar { display: none; }
+  .day-card {
+    flex: 0 0 min(84vw, 360px);
+    scroll-snap-align: start;
+    min-height: 300px;
+  }
+  .day-card-content { min-height: 300px; }
+  .no-results { flex: 1 0 100%; }
   .section-head { align-items: flex-start; flex-direction: column; }
   .timeline-shell { padding: 14px; border-radius: 24px; }
   .timeline { padding-left: 19px; }
@@ -657,4 +710,10 @@ p { color: var(--muted); line-height: 1.65; }
   .time-block { position: static; align-items: flex-start; padding: 0 0 0 10px; }
   .timeline-dot { left: -26px; top: 36px; }
   .details-row { padding-left: 20px; }
+  .embedded-map {
+    margin: 0 12px 14px 20px;
+  }
+  .embedded-map iframe {
+    height: min(300px, 56vh);
+  }
 }
