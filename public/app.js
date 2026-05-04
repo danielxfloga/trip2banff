@@ -35,7 +35,7 @@ const scenicImages = [
 ];
 
 const iconSvg = {
-  plane: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.2 2 8l1.5-2L22 8.8v7.4Z"/><path d="m11 12-3 8 2 1 5-7"/><path d="m11 12-8 3-1-2 8-5"/></svg>',
+  plane: '<img class="plane-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Airplane_silhouette_gray_40.svg/500px-Airplane_silhouette_gray_40.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail" alt="" title="Josh Baumgartner, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons">',
   car: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 11 7 6h10l2 5"/><path d="M4 11h16v7H4z"/><path d="M6.5 18v2"/><path d="M17.5 18v2"/><circle cx="7" cy="15" r="1"/><circle cx="17" cy="15" r="1"/></svg>',
   food: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 2v20"/><path d="M10 2v7a4 4 0 0 1-8 0V2"/><path d="M17 2v20"/><path d="M17 2c3 2 4 5 4 9h-4"/></svg>',
   bed: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 11V5"/><path d="M3 16h18"/><path d="M21 16v-5a3 3 0 0 0-3-3h-7v8"/><path d="M3 16v4"/><path d="M21 16v4"/><path d="M7 11a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>',

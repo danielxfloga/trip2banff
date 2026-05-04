@@ -514,7 +514,17 @@ p { color: var(--muted); line-height: 1.65; }
   background: var(--soft);
   color: var(--teal);
 }
-.icon-bubble svg { width: 22px; height: 22px; stroke-width: 2.2; }
+.icon-bubble svg,
+.icon-bubble img {
+  width: 22px;
+  height: 22px;
+  stroke-width: 2.2;
+}
+.icon-bubble img,
+.action-icon img {
+  display: block;
+  object-fit: contain;
+}
 .timeline-copy p { margin: 10px 0 0; }
 .research {
   margin-top: 14px;
@@ -548,7 +558,8 @@ p { color: var(--muted); line-height: 1.65; }
   width: 18px;
   height: 18px;
 }
-.action-icon svg {
+.action-icon svg,
+.action-icon img {
   width: 18px;
   height: 18px;
   stroke-width: 2.2;
@@ -562,7 +573,8 @@ p { color: var(--muted); line-height: 1.65; }
   width: 20px;
   height: 20px;
 }
-.map-link .action-icon svg {
+.map-link .action-icon svg,
+.map-link .action-icon img {
   width: 20px;
   height: 20px;
 }
