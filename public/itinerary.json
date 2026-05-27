@@ -288,136 +288,156 @@
       "dayName": "Martes",
       "title": "Área de Banff",
       "stay": "Airbnb, Harvie Heights",
-      "imageQuery": "Martes 2 de junio: Banff - pendiente de Excel Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+      "imageQuery": "Martes 2 de junio: Banff High School Transit Hub Lake Louise Lakeshore Moraine Lake hiking trails Rocosas Canadienses",
       "schedule": [
         {
           "row": 34,
-          "time": "",
-          "title": "Pendiente de actualización del Excel",
-          "note": "Mantener este día como borrador hasta que el archivo Excel quede actualizado.",
-          "mapUrl": "",
-          "research": "",
-          "icon": "pin",
-          "imageQuery": "Pendiente de actualización del Excel Rocosas Canadienses Banff Jasper lagos montañas cascadas"
-        },
-        {
-          "row": 35,
           "time": "5:00 AM",
           "title": "Desayuno",
-          "note": "Horario preliminar.",
+          "note": "Desayunar temprano y salir con snacks, agua, capas y captura de las reservas de transporte.",
           "mapUrl": "",
           "research": "",
           "icon": "food",
-          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "imageQuery": "Desayuno Harvie Heights Banff Lake Louise Moraine Lake",
           "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Harvie+Heights+Alberta"
         },
         {
-          "row": 36,
+          "row": 35,
           "time": "6:00 AM",
-          "title": "Banff",
-          "note": "Bloque preliminar pendiente de confirmación.",
-          "mapUrl": "",
+          "title": "Salir hacia el pueblo de Banff",
+          "note": "Manejar hacia Banff con margen para estacionarse y caminar al punto de salida.",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Harvie+Heights+AB&destination=Banff+High+School+Transit+Hub&travelmode=driving",
           "research": "",
-          "icon": "mountain",
-          "imageQuery": "Banff Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "icon": "car",
+          "imageQuery": "Banff High School Transit Hub Banff town"
+        },
+        {
+          "row": 36,
+          "time": "7:00 AM",
+          "title": "Banff High School Transit Hub",
+          "note": "Traslado hacia Lake Louise Lakeshore. Estacionamiento gratis sugerido en Banff Train Station Parking; llegar 20 min antes y transbordar de inmediato hacia Moraine Lake.",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Banff+High+School+Transit+Hub&destination=Lake+Louise+Lakeshore&travelmode=transit",
+          "research": "",
+          "icon": "lake",
+          "imageQuery": "Banff High School Transit Hub to Lake Louise Lakeshore shuttle"
         },
         {
           "row": 37,
           "time": "11:00 AM",
-          "title": "Góndola de verano de Lake Louise",
-          "note": "Pendiente de confirmar en Excel.",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Summer+Gondola",
+          "title": "Moraine Lake y hiking trails",
+          "note": "Prioridad: orilla de Moraine Lake, Rockpile Trail y caminatas cortas según clima. Regresar a Lake Louise para el retorno.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Moraine+Lake+Banff",
           "research": "",
           "icon": "lake",
-          "imageQuery": "Góndola de verano de Lake Louise Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "imageQuery": "Moraine Lake hiking trails Rockpile Trail Banff"
         },
         {
           "row": 38,
-          "time": "4:00 PM",
-          "title": "Sendero Sulphur Mountain / Lake Agnes / mirador Fairview",
-          "note": "Pendiente de actualizar desde Excel.",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Agnes+Tea+House+Trailhead",
+          "time": "3:44 PM",
+          "title": "Lake Louise Lakeshore -> Banff High School Transit Hub",
+          "note": "Llegar al punto de salida 20 min antes de las 3:44 PM. Confirmar el andén al bajar de Moraine Lake.",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Lake+Louise+Lakeshore&destination=Banff+High+School+Transit+Hub&travelmode=transit",
           "research": "",
-          "icon": "mountain",
-          "imageQuery": "Sendero Sulphur Mountain / Lake Agnes / mirador Fairview Rocosas Canadienses Banff Jasper lagos montañas cascadas"
+          "icon": "car",
+          "imageQuery": "Lake Louise Lakeshore to Banff High School Transit Hub"
         },
         {
           "row": 39,
-          "time": "6:00 PM",
-          "title": "Pueblo de Banff",
-          "note": "Cena o paseo ligero.",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Avenue",
+          "time": "Opcional",
+          "title": "Lake Louise Summer Gondola",
+          "note": "Solo si el regreso y la energía lo permiten; confirmar horario del día.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Summer+Gondola",
           "research": "",
-          "icon": "food",
-          "imageQuery": "Pueblo de Banff Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Banff+Avenue+Banff+Alberta"
+          "icon": "mountain",
+          "imageQuery": "Lake Louise Summer Gondola"
+        },
+        {
+          "row": 40,
+          "time": "Opcional",
+          "title": "Lake Agnes / mirador Fairview / Sulphur Mountain",
+          "note": "Opciones de caminata si el clima y el tiempo ayudan; priorizar Lake Agnes o Fairview si ya están en Lake Louise.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Agnes+Tea+House+Trailhead",
+          "research": "",
+          "icon": "mountain",
+          "imageQuery": "Lake Agnes Trail Fairview Lookout Lake Louise"
         }
       ],
       "activities": [
         {
           "row": 34,
-          "phase": "Nota",
-          "title": "Pendiente de actualización del Excel",
-          "description": "Este día queda como borrador hasta que se actualice el Excel.",
-          "mapUrl": "",
-          "research": "No ajustar logística fina todavía. Solo se tradujeron los textos para mantener la app consistente en español.",
-          "icon": "pin",
-          "imageQuery": "Pendiente de actualización del Excel Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80"
-        },
-        {
-          "row": 20,
-          "phase": "Mañana",
-          "title": "Góndola de Banff y sendero Sulphur Mountain",
-          "description": "Plan preliminar para vistas altas de Banff.",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Banff+Gondola",
-          "research": "Duración: 2-4 h total. Reservar temprano ayuda; arriba puede hacer viento y frío incluso en junio. Llevar bloqueador, agua y capa ligera.",
-          "icon": "mountain",
-          "imageQuery": "Góndola de Banff y sendero Sulphur Mountain Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80"
-        },
-        {
-          "row": 21,
-          "phase": "Tarde",
-          "title": "mirador Mount Norquay u Upper Hot Springs",
-          "description": "Opción ligera para vista aérea del pueblo o descanso en aguas termales.",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mount+Norquay+Lookout+Banff",
-          "research": "Duración: 45-90 min en mirador o aguas termales. Revisar horarios oficiales antes de salir.",
-          "icon": "mountain",
-          "imageQuery": "mirador Mount Norquay u Upper Hot Springs Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80"
+          "phase": "Logística",
+          "title": "Banff -> Lake Louise -> Moraine Lake",
+          "description": "Día armado alrededor del transporte: salir temprano, llegar a Banff High School Transit Hub y conectar hacia Lake Louise y Moraine Lake.",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Harvie+Heights+AB&destination=Moraine+Lake+Banff&travelmode=transit&waypoints=Banff+High+School+Transit+Hub%7CLake+Louise+Lakeshore",
+          "research": "Estacionarse con margen, llevar captura de reservas y estar 20 min antes en cada punto crítico. La conexión a Moraine Lake debe hacerse de inmediato al llegar a Lake Louise.",
+          "icon": "lake",
+          "imageQuery": "Banff High School Transit Hub Lake Louise Moraine Lake shuttle",
+          "fallbackImage": "assets/moraine-lake.jpg"
         },
         {
           "row": 37,
-          "phase": "11:00 AM",
-          "title": "Góndola de verano de Lake Louise",
-          "description": "Actividad preliminar pendiente de confirmar.",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Summer+Gondola",
-          "research": "Duración: 1-3 h. Confirmar en Excel si este bloque se queda o se mueve.",
+          "phase": "7:00 AM",
+          "title": "Banff High School Transit Hub",
+          "description": "Salida hacia Lake Louise Lakeshore, con transbordo inmediato hacia Moraine Lake.",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Banff+High+School+Transit+Hub&destination=Lake+Louise+Lakeshore&travelmode=transit",
+          "research": "Llegar 20 min antes. Si usan Banff Train Station Parking, caminar con tiempo suficiente al punto de salida confirmado.",
           "icon": "lake",
-          "imageQuery": "Góndola de verano de Lake Louise Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1400&q=80"
+          "imageQuery": "Banff High School Transit Hub Lake Louise Lakeshore",
+          "fallbackImage": "assets/lake-louise.jpg"
         },
         {
           "row": 38,
-          "phase": "4:00 PM",
-          "title": "sendero Lake Agnes / mirador Fairview",
-          "description": "Caminata preliminar en el Área de Lake Louise.",
+          "phase": "11:00 AM",
+          "title": "Moraine Lake y hiking trails",
+          "description": "Caminar la orilla de Moraine Lake y hacer Rockpile Trail o caminatas cortas si el clima está estable.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Moraine+Lake+Banff",
+          "research": "Priorizar vistas de Moraine Lake antes de extender caminatas. Llevar agua, snack, rompevientos y margen para volver a Lake Louise.",
+          "icon": "lake",
+          "imageQuery": "Moraine Lake hiking trails Rockpile Trail",
+          "fallbackImage": "assets/moraine-lake.jpg"
+        },
+        {
+          "row": 39,
+          "phase": "3:44 PM",
+          "title": "Regreso desde Lake Louise Lakeshore",
+          "description": "Volver a Banff High School Transit Hub desde Lake Louise Lakeshore.",
+          "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=Lake+Louise+Lakeshore&destination=Banff+High+School+Transit+Hub&travelmode=transit",
+          "research": "Estar en el punto de salida 20 min antes; objetivo práctico: 3:24 PM para no perder la ventana de regreso.",
+          "icon": "car",
+          "imageQuery": "Lake Louise Lakeshore shuttle Banff High School Transit Hub",
+          "fallbackImage": "assets/lake-louise.jpg"
+        },
+        {
+          "row": 40,
+          "phase": "Opcional",
+          "title": "Lake Louise Summer Gondola",
+          "description": "Bloque opcional si el transporte y el cansancio dejan espacio.",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Summer+Gondola",
+          "research": "Confirmar último ascenso y cierre antes de comprometerse; si el día ya se alargó, mejor dejarlo como plan B.",
+          "icon": "mountain",
+          "imageQuery": "Lake Louise Summer Gondola",
+          "fallbackImage": "assets/lake-louise.jpg"
+        },
+        {
+          "row": 41,
+          "phase": "Opcional",
+          "title": "Lake Agnes / mirador Fairview",
+          "description": "Caminata opcional desde Lake Louise si hay energía y clima estable.",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Agnes+Tea+House+Trailhead",
-          "research": "Duración: orilla de Lake Louise 30-60 min; Lake Agnes 3-6 h; mirador Fairview 45-60 min adicional. Llevar agua, snack, impermeable y efectivo por si falla la terminal del casa de té.",
-          "icon": "food",
-          "imageQuery": "sendero Lake Agnes / mirador Fairview Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
+          "research": "Lake Agnes requiere más tiempo y desnivel; Fairview Lookout es más corto. Elegir uno, no ambos, si el horario de shuttle va justo.",
+          "icon": "mountain",
+          "imageQuery": "Lake Agnes Trail Fairview Lookout Lake Louise",
+          "fallbackImage": "assets/lake-louise.jpg"
         }
       ],
       "sourceRows": {
         "start": 33,
         "end": 40
       },
-      "optimizedTitle": "Martes 2 de junio: Banff - pendiente de Excel",
-      "activityCount": 5,
-      "scheduleCount": 6,
-      "fallbackImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80"
+      "optimizedTitle": "Martes 2 de junio: Lake Louise y Moraine Lake por shuttle",
+      "activityCount": 6,
+      "scheduleCount": 7,
+      "fallbackImage": "assets/moraine-lake.jpg"
     },
     {
       "id": "day-6-3",
@@ -779,7 +799,7 @@
       "dayName": "Viernes",
       "title": "Área de Banff",
       "stay": "Airbnb, Harvie Heights",
-      "imageQuery": "Viernes 5 de junio: Yoho y Lake Louise (logística crítica) Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+      "imageQuery": "Viernes 5 de junio: Yoho y Lake Louise logística crítica Rocosas Canadienses",
       "schedule": [
         {
           "row": 66,
@@ -789,7 +809,7 @@
           "mapUrl": "",
           "research": "",
           "icon": "food",
-          "imageQuery": "Desayuno Rocosas Canadienses Banff Jasper lagos montañas cascadas",
+          "imageQuery": "Desayuno Harvie Heights Yoho Lake Louise",
           "foodUrl": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Canmore+Alberta"
         },
         {
@@ -829,7 +849,7 @@
           "title": "Traslado a Lake Louise",
           "note": "Reserva INPC26-4028073B1. Llegar al Park and Ride 20 min antes de la ventana.",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Louise+Park+and+Ride",
-          "research": "Usar la reserva de Parks Canada desde Lake Louise Park and Ride. orilla de Lake Louise tiene estacionamiento limitado y caro en temporada, así que la logística principal debe ser traslado.",
+          "research": "Usar la reserva de Parks Canada desde Lake Louise Park and Ride. La orilla de Lake Louise tiene estacionamiento limitado y caro en temporada, así que la logística principal debe ser traslado.",
           "icon": "lake",
           "imageQuery": "Traslado a Lake Louise Rocosas Canadienses Banff Jasper lagos montañas cascadas"
         }
@@ -844,7 +864,7 @@
           "research": "Día apretado: conviene hacer Emerald Lake muy temprano, confirmar estado de carretera Yoho Valley hacia Takakkaw Falls y llegar al Park and Ride con margen.",
           "icon": "lake",
           "imageQuery": "Yoho y Lake Louise Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80"
+          "fallbackImage": "assets/lake-louise.jpg"
         },
         {
           "row": 67,
@@ -854,8 +874,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yoho+National+Park+Emerald+Lake",
           "research": "Duración: medio día. Revisar cierres estacionales en carretera Yoho Valley antes de salir; a inicios de junio puede cambiar por nieve o mantenimiento.",
           "icon": "waterfall",
-          "imageQuery": "Parque Nacional Yoho Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80"
+          "imageQuery": "Emerald Lake Yoho National Park",
+          "fallbackImage": "assets/lake-louise.jpg"
         },
         {
           "row": 68,
@@ -865,8 +885,8 @@
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Takakkaw+Falls",
           "research": "Duración: 45-90 min. Llevar impermeable ligero por la brisa y no confiar en que la carretera está abierta sin verificar.",
           "icon": "waterfall",
-          "imageQuery": "Takakkaw Falls Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80"
+          "imageQuery": "Takakkaw Falls Yoho National Park",
+          "fallbackImage": "assets/lake-louise.jpg"
         },
         {
           "row": 69,
@@ -877,7 +897,7 @@
           "research": "Check-in en el kiosco del Park and Ride durante la ventana reservada; llegar 20 min antes. Llevar captura de la reserva, agua, abrigo y snacks.",
           "icon": "lake",
           "imageQuery": "Traslado a Lake Louise Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1400&q=80"
+          "fallbackImage": "assets/lake-louise.jpg"
         },
         {
           "row": 70,
@@ -888,7 +908,7 @@
           "research": "Parks Canada indica que el estacionamiento en orilla de Lake Louise se llena muy temprano y es de pago durante la temporada. La reserva de traslado incluye estacionamiento gratuito en Park and Ride.",
           "icon": "pin",
           "imageQuery": "Lake Louise sin improvisar estacionamiento Rocosas Canadienses Banff Jasper lagos montañas cascadas",
-          "fallbackImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80"
+          "fallbackImage": "assets/lake-louise.jpg"
         }
       ],
       "sourceRows": {
@@ -898,7 +918,7 @@
       "optimizedTitle": "Viernes 5 de junio: Yoho y Lake Louise (logística crítica)",
       "activityCount": 5,
       "scheduleCount": 5,
-      "fallbackImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
+      "fallbackImage": "assets/lake-louise.jpg"
     },
     {
       "id": "day-6-6",
